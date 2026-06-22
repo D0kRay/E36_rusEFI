@@ -1,0 +1,54 @@
+$date
+	Mon Nov 11 10:18:57 CET 2024
+$end
+$version
+        1.0
+$end
+$timescale
+        1ps
+$end
+$scope module test $end
+$var wire 1 t PRI_TRG $end
+$var wire 1 s SEC_TRG $end
+$var wire 1 r TRG $end
+$var wire 1 y SYNC $end
+$var wire 1 c COIL $end
+$var wire 1 i INJ $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+#1191725058
+1t
+0s
+0r
+0y
+0c
+0i
+#1191866586
+0t
+0s
+0r
+0y
+0c
+0i
+#1191866996
+1t
+0s
+0r
+0y
+0c
+0i
+#1192005837
+0t
+0s
+0r
+0y
+0c
+0i
+#1197339888
+1t
+0s
+0r
+0y
+0c
+0i

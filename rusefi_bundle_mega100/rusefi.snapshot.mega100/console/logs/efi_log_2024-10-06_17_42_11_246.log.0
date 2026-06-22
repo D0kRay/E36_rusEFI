@@ -1,0 +1,159 @@
+I 241006 174211.277 [main] Autoupdate - Version 20241004
+I 241006 174211.293 [main] Autoupdate - Compiled Sun Oct 06 12:23:18 CEST 2024
+I 241006 174211.293 [main] Autoupdate - Handling parent folder name [rusefi.snapshot.mega100]
+I 241006 174211.293 [main] Autoupdate - Snapshot requested
+I 241006 174211.324 [main] FindFileHelper - Searching for *srec in C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241006 174214.558 [main] Autoupdate - Remote file rusefi_bundle_mega100_autoupdate.zip
+I 241006 174214.558 [main] Autoupdate - Server has 11901031 from Sun Oct 06 02:18:51 CEST 2024
+I 241006 174214.574 [main] Autoupdate - We already have latest update Sun Oct 06 02:18:51 CEST 2024
+I 241006 174214.574 [main] JarFileUtil - jarFilePrefix = rusefi
+I 241006 174214.605 [main] Autoupdate - Running console with [basic-ui]
+I 241006 174214.605 [main] Launcher - rusEFI UI console 20241002
+I 241006 174214.605 [main] Launcher - Compiled Sun Oct 06 12:23:18 CEST 2024
+I 241006 174214.605 [main] Launcher - 
+
+
+I 241006 174214.902 [AWT-EventQueue-0] FindFileHelper - Searching for *srec in C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241006 174215.756 [AWT-EventQueue-0] FindFileHelper - Searching for *srec in C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241006 174216.147 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 174217.324 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 174217.597 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 174218.841 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 174219.845 [AWT-EventQueue-0] StatusWindow - Console version 20241002
+I 241006 174219.860 [AWT-EventQueue-0] StatusWindow - Windows 10 10.0
+I 241006 174219.877 [AWT-EventQueue-0] StatusWindow - Bundle rusefi.snapshot.mega100
+I 241006 174219.914 [AWT-EventQueue-0] StatusWindow - Executing command=wmic path win32_pnpentity where "Caption like '%STM32%' and Caption like '%Bootloader%'" get Caption,ConfigManagerErrorCode /format:list
+I 241006 174220.008 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 174220.228 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174220.228 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174220.228 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174220.228 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174220.228 [AWT-EventQueue-0] StatusWindow - Caption=STM32  BOOTLOADER
+I 241006 174220.248 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174220.249 [AWT-EventQueue-0] StatusWindow - ConfigManagerErrorCode=0
+I 241006 174220.250 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174220.252 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174220.253 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174220.254 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174220.256 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174220.258 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174220.260 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174220.266 [AWT-EventQueue-0] StatusWindow - Caption=STM32  BOOTLOADERConfigManagerErrorCode=0
+I 241006 174220.266 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174220.266 [AWT-EventQueue-0] StatusWindow - Executing command=.\STM32_Programmer_CLI/bin/STM32_Programmer_CLI.exe -c port=usb1 -w "C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..\rusefi.bin" 0x08000000 -v -s
+I 241006 174221.374 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 174222.584 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 174223.684 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 174224.923 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 174225.998 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 174227.106 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 174228.289 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 174229.384 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 174230.460 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 174231.531 [AWT-EventQueue-0] StatusWindow -       -------------------------------------------------------------------
+I 241006 174231.535 [AWT-EventQueue-0] StatusWindow -                        STM32CubeProgrammer v2.17.0                  
+I 241006 174231.541 [AWT-EventQueue-0] StatusWindow -       -------------------------------------------------------------------
+I 241006 174231.544 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174231.547 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174231.550 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174231.554 [AWT-EventQueue-0] StatusWindow - USB speed   : Full Speed (12MBit/s)
+I 241006 174231.554 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 174231.561 [AWT-EventQueue-0] StatusWindow - Manuf. ID   : STMicroelectronics
+I 241006 174231.563 [AWT-EventQueue-0] StatusWindow - Product ID  : STM32  BOOTLOADER
+I 241006 174231.564 [AWT-EventQueue-0] StatusWindow - SN          : 3362335B3431
+I 241006 174231.569 [AWT-EventQueue-0] StatusWindow - DFU protocol: 1.1
+I 241006 174231.571 [AWT-EventQueue-0] StatusWindow - Board       : --
+I 241006 174231.572 [AWT-EventQueue-0] StatusWindow - Device ID   : 0x0413
+I 241006 174231.573 [AWT-EventQueue-0] StatusWindow - Device name : STM32F405xx/F407xx/F415xx/F417xx
+I 241006 174231.575 [AWT-EventQueue-0] StatusWindow - Flash size  : 1 MBytes (default)
+I 241006 174231.578 [AWT-EventQueue-0] StatusWindow - Device type : MCU
+I 241006 174231.579 [AWT-EventQueue-0] StatusWindow - Revision ID : --  
+I 241006 174231.580 [AWT-EventQueue-0] StatusWindow - Device CPU  : Cortex-M4
+I 241006 174231.582 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174231.583 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174231.586 [AWT-EventQueue-0] StatusWindow - Memory Programming ...
+I 241006 174231.587 [AWT-EventQueue-0] StatusWindow - Opening and parsing file: rusefi.bin
+I 241006 174231.589 [AWT-EventQueue-0] StatusWindow -   File          : rusefi.bin
+I 241006 174231.591 [AWT-EventQueue-0] StatusWindow -   Size          : 531.97 KB 
+I 241006 174231.594 [AWT-EventQueue-0] StatusWindow -   Address       : 0x08000000 
+I 241006 174231.595 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174231.596 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174231.598 [AWT-EventQueue-0] StatusWindow - Erasing memory corresponding to segment 0:
+I 241006 174231.599 [AWT-EventQueue-0] StatusWindow - Erasing internal memory sectors [0 8]
+I 241006 174231.602 [AWT-EventQueue-0] StatusWindow - erasing sector 0000 @: 0x08000000 done
+I 241006 174231.604 [AWT-EventQueue-0] StatusWindow - erasing sector 0001 @: 0x08004000 done
+I 241006 174231.605 [AWT-EventQueue-0] StatusWindow - erasing sector 0002 @: 0x08008000 done
+I 241006 174231.607 [AWT-EventQueue-0] StatusWindow - erasing sector 0003 @: 0x0800c000 done
+I 241006 174231.609 [AWT-EventQueue-0] StatusWindow - erasing sector 0004 @: 0x08010000 done
+I 241006 174231.610 [AWT-EventQueue-0] StatusWindow - erasing sector 0005 @: 0x08020000 done
+I 241006 174231.611 [AWT-EventQueue-0] StatusWindow - erasing sector 0006 @: 0x08040000 done
+I 241006 174231.612 [AWT-EventQueue-0] StatusWindow - erasing sector 0007 @: 0x08060000 done
+I 241006 174231.613 [AWT-EventQueue-0] StatusWindow - erasing sector 0008 @: 0x08080000 done
+I 241006 174231.614 [AWT-EventQueue-0] StatusWindow - Download in Progress:
+I 241006 174231.777 [AWT-EventQueue-0] StatusWindow - 北北北北北北北北北北北北北北北北北北北北北北北北北 0%
+I 241006 174232.710 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 174233.920 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 174235.008 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 174236.104 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 174237.327 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 174238.429 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 174239.554 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 174240.805 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 174241.989 [AWT-EventQueue-0] StatusWindow -   2%  4%  6%  8% 10% 12% 14% 16% 18% 20% 22% 24% 26% 28% 30% 32% 34% 36% 38% 40% 42% 44% 46% 48% 50% 52% 54% 56% 58% 60% 62% 64% 66% 68% 70% 72% 74% 76% 78% 80% 82% 84% 86% 88% 90% 92% 94% 96% 98% 100%
+I 241006 174241.991 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174241.994 [AWT-EventQueue-0] StatusWindow - File download complete
+I 241006 174241.994 [AWT-EventQueue-0] StatusWindow - Time elapsed during download operation: 00:00:21.199
+I 241006 174241.996 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174241.997 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174241.998 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174241.999 [AWT-EventQueue-0] StatusWindow - Verifying ...
+I 241006 174242.001 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174242.002 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174242.003 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 174242.004 [AWT-EventQueue-0] StatusWindow - Read progress:
+I 241006 174242.016 [AWT-EventQueue-0] StatusWindow - 北北北北北北北北北北北北北北北北北北北北北北北北北 50%
+I 241006 174243.044 [AWT-EventQueue-0] StatusWindow -   2%  4%  6%  8% 10% 12% 14% 16% 18% 20% 22% 24% 26% 28% 30% 32% 34% 36% 38% 40% 42% 44% 46% 48% 50% 52% 54% 56% 58% 60% 62% 64% 66% 68% 70% 72% 74% 76% 78% 80% 82% 84% 86% 88% 90% 92% 94% 96% 98% 100%
+I 241006 174243.044 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174243.044 [AWT-EventQueue-0] StatusWindow - Download verified successfully 
+I 241006 174243.044 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174243.044 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174243.044 [AWT-EventQueue-0] StatusWindow - 
+I 241006 174243.060 [AWT-EventQueue-0] StatusWindow - RUNNING Program ... 
+I 241006 174243.060 [AWT-EventQueue-0] StatusWindow -   Address:      : 0x8000000
+I 241006 174243.060 [AWT-EventQueue-0] StatusWindow - Start operation achieved successfully
+I 241006 174243.060 [AWT-EventQueue-0] StatusWindow - SUCCESS!
+I 241006 174243.060 [AWT-EventQueue-0] StatusWindow - Please power cycle device to exit DFU mode
+I 241006 174243.269 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 174244.239 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 174244.554 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 174245.698 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 174246.849 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 174247.928 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 174249.037 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 174249.667 [AWT-EventQueue-0] FrameHelper - Non-daemon thread: Thread[AWT-Shutdown,5,system]
+I 241006 174249.667 [AWT-EventQueue-0] FrameHelper - Non-daemon thread: Thread[AWT-EventQueue-0,6,main]
+I 241006 174249.667 [AWT-EventQueue-0] FrameHelper - Non-daemon thread: Thread[DestroyJavaVM,5,main]
+I 241006 174249.730 [AWT-EventQueue-0] FrameHelper - [javax.swing.JFrame[frame0,516,244,259x380,layout=java.awt.BorderLayout,title=rusefi basic console 20241002 rusefi.snapshot.mega100,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,245x343,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true], javax.swing.JFrame[frame1,433,208,414x437,invalid,hidden,layout=java.awt.BorderLayout,title=DFU update 20241002 rusefi.snapshot.mega100,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,400x400,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]
+I 241006 174250.214 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 174251.267 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 174252.433 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 174253.538 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 174254.600 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 174255.804 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 174255.804 [SerialPortScanner inspectPort COM5] SerialIoStream - Using com.fazecast.jSerialComm 2.11.0
+I 241006 174255.804 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 174256.100 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 174256.105 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 174256.105 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 174256.110 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 174256.110 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 174256.140 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 174256.140 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 174256.150 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 174256.150 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 174256.150 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 174256.160 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 174256.170 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 174256.170 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 174256.175 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 174256.180 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 5ms

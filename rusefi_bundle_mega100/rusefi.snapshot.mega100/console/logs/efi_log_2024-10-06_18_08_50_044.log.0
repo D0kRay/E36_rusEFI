@@ -1,0 +1,1182 @@
+I 241006 180850.098 [main] Autoupdate - Version 20241004
+I 241006 180850.114 [main] Autoupdate - Compiled Sun Oct 06 12:23:18 CEST 2024
+I 241006 180850.114 [main] Autoupdate - Handling parent folder name [rusefi.snapshot.mega100]
+I 241006 180850.114 [main] Autoupdate - Snapshot requested
+I 241006 180850.145 [main] FindFileHelper - Searching for *srec in C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241006 180853.860 [main] Autoupdate - Remote file rusefi_bundle_mega100_autoupdate.zip
+I 241006 180853.860 [main] Autoupdate - Server has 11901031 from Sun Oct 06 02:18:51 CEST 2024
+I 241006 180853.898 [main] Autoupdate - We already have latest update Sun Oct 06 02:18:51 CEST 2024
+I 241006 180853.914 [main] JarFileUtil - jarFilePrefix = rusefi
+I 241006 180853.914 [main] Autoupdate - Running console with [basic-ui]
+I 241006 180853.930 [main] Launcher - rusEFI UI console 20241002
+I 241006 180853.930 [main] Launcher - Compiled Sun Oct 06 12:23:18 CEST 2024
+I 241006 180853.930 [main] Launcher - 
+
+
+I 241006 180854.119 [AWT-EventQueue-0] FindFileHelper - Searching for *srec in C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241006 180854.660 [AWT-EventQueue-0] FindFileHelper - Searching for *srec in C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241006 180854.707 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180854.707 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180854.723 [SerialPortScanner inspectPort COM5] SerialIoStream - Using com.fazecast.jSerialComm 2.11.0
+I 241006 180854.723 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180854.723 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180854.731 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180854.731 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180854.732 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180854.732 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180854.732 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180854.733 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180854.733 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180854.733 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180854.737 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 180854.737 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180854.740 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180854.740 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180855.012 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180855.063 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 180856.081 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180856.381 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180857.486 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180857.486 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180857.486 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180857.486 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180857.496 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180857.498 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180857.498 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+E 241006 180857.498 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180857.498 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180857.500 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180857.500 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 180857.501 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 180857.502 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+E 241006 180857.503 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180857.503 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180857.503 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 180857.503 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180857.503 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180857.503 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180858.276 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180858.588 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180859.380 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180859.693 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180859.693 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180859.693 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180859.693 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180859.698 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180859.698 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180859.699 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180859.699 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180859.699 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180859.699 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180859.700 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180859.700 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180859.701 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180859.701 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+E 241006 180859.701 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180859.701 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180859.701 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180859.701 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180859.701 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180900.493 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180900.806 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180901.673 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180901.989 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180901.989 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180901.989 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180901.989 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180901.998 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180901.999 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180902.000 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180902.000 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180902.000 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180902.001 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180902.002 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180902.002 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180902.003 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180902.004 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180902.005 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 180902.005 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180902.007 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180902.007 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180902.007 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180902.777 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180903.090 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180903.892 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180904.203 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180904.203 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180904.203 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180904.203 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180904.210 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180904.210 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180904.211 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180904.211 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+E 241006 180904.211 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180904.211 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180904.211 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+E 241006 180904.212 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180904.212 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 180904.213 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+E 241006 180904.213 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180904.213 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180904.213 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180904.213 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180904.213 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180905.068 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180905.381 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180906.153 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180906.466 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180906.466 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180906.466 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180906.466 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180906.474 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180906.474 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180906.474 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180906.474 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+E 241006 180906.474 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180906.474 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180906.475 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+E 241006 180906.475 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180906.475 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 180906.475 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+E 241006 180906.476 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180906.476 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180906.476 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180906.476 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180906.476 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180907.246 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180907.552 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180908.351 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180908.663 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180908.663 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180908.663 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180908.663 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180908.668 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180908.668 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180908.668 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180908.668 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180908.669 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180908.669 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180908.669 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180908.670 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180908.670 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180908.670 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180908.670 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 180908.671 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180908.671 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180908.671 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180908.671 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180909.461 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180909.789 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180910.653 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180910.966 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180910.966 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180910.966 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180910.966 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180910.975 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180910.976 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180910.977 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180910.977 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180910.978 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180910.978 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180910.979 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180910.979 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180910.980 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180910.980 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180910.980 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 180910.981 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180910.981 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180910.981 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180910.981 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180911.757 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180912.070 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180912.846 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180913.162 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180913.162 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180913.162 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180913.162 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180913.170 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180913.170 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180913.171 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180913.171 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180913.171 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180913.171 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180913.172 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180913.172 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180913.172 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180913.172 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180913.173 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 180913.173 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180913.173 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180913.173 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180913.173 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180914.027 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180914.340 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180915.121 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180915.430 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180915.430 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180915.430 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180915.430 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180915.438 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180915.439 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180915.439 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+E 241006 180915.439 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180915.439 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180915.441 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180915.441 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 180915.442 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 180915.442 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180915.442 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+E 241006 180915.442 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180915.442 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180915.442 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180915.442 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180915.442 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180916.224 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180916.536 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180917.059 [AWT-EventQueue-0] StatusWindow - Console version 20241002
+I 241006 180917.075 [AWT-EventQueue-0] StatusWindow - Windows 10 10.0
+I 241006 180917.075 [AWT-EventQueue-0] StatusWindow - Bundle rusefi.snapshot.mega100
+I 241006 180917.106 [AWT-EventQueue-0] StatusWindow - Executing command=wmic path win32_pnpentity where "Caption like '%STM32%' and Caption like '%Bootloader%'" get Caption,ConfigManagerErrorCode /format:list
+I 241006 180917.430 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180917.430 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180917.430 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180917.430 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180917.430 [AWT-EventQueue-0] StatusWindow - Caption=STM32  BOOTLOADER
+I 241006 180917.446 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180917.446 [AWT-EventQueue-0] StatusWindow - ConfigManagerErrorCode=0
+I 241006 180917.446 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180917.446 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180917.446 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180917.446 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180917.446 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180917.446 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180917.446 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180917.461 [AWT-EventQueue-0] StatusWindow - Caption=STM32  BOOTLOADERConfigManagerErrorCode=0
+I 241006 180917.461 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180917.461 [AWT-EventQueue-0] StatusWindow - Executing command=.\STM32_Programmer_CLI/bin/STM32_Programmer_CLI.exe -c port=usb1 -w "C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..\rusefi.bin" 0x08000000 -v -s
+I 241006 180917.643 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180917.956 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180917.957 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180917.969 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180917.969 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180917.970 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180917.970 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180917.971 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180917.971 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180917.971 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180917.971 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180917.971 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180917.972 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180917.972 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180917.972 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180917.972 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 180917.972 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180917.973 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180917.973 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180917.974 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 180918.767 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180919.080 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 180919.975 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180920.287 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180920.288 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180920.289 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180920.289 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180920.290 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180920.290 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180920.290 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180920.290 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+E 241006 180920.290 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180920.290 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 180920.290 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180920.291 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 180920.291 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+E 241006 180920.291 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180920.291 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180920.291 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 180920.291 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180920.292 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180920.292 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180921.095 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180921.408 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 180922.214 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180922.529 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180922.529 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180922.530 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180922.530 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180922.530 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180922.531 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180922.531 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180922.531 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180922.531 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180922.531 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180922.531 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180922.531 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180922.532 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180922.532 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180922.532 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 180922.532 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180922.532 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180922.532 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180922.534 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180923.381 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180923.691 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 180924.495 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180924.808 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180924.808 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180924.809 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180924.809 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180924.810 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180924.810 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180924.810 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180924.810 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180924.811 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180924.811 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180924.811 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 180924.811 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 180924.811 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+E 241006 180924.812 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180924.812 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180924.812 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 180924.812 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180924.812 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180924.813 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180925.671 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180925.994 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 180926.800 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180927.118 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180927.118 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180927.119 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180927.119 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180927.120 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180927.120 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180927.120 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180927.121 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+E 241006 180927.121 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180927.121 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 180927.121 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180927.121 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 180927.121 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180927.121 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+E 241006 180927.121 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180927.122 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180927.122 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180927.122 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180927.123 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 180927.909 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180927.963 [AWT-EventQueue-0] StatusWindow -       -------------------------------------------------------------------
+I 241006 180927.966 [AWT-EventQueue-0] StatusWindow -                        STM32CubeProgrammer v2.17.0                  
+I 241006 180927.969 [AWT-EventQueue-0] StatusWindow -       -------------------------------------------------------------------
+I 241006 180927.971 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180927.972 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180927.973 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180927.974 [AWT-EventQueue-0] StatusWindow - USB speed   : Full Speed (12MBit/s)
+I 241006 180927.977 [AWT-EventQueue-0] StatusWindow - Manuf. ID   : STMicroelectronics
+I 241006 180927.978 [AWT-EventQueue-0] StatusWindow - Product ID  : STM32  BOOTLOADER
+I 241006 180927.979 [AWT-EventQueue-0] StatusWindow - SN          : 3358356A3037
+I 241006 180927.982 [AWT-EventQueue-0] StatusWindow - DFU protocol: 1.1
+I 241006 180927.983 [AWT-EventQueue-0] StatusWindow - Board       : --
+I 241006 180927.985 [AWT-EventQueue-0] StatusWindow - Device ID   : 0x0413
+I 241006 180927.986 [AWT-EventQueue-0] StatusWindow - Device name : STM32F405xx/F407xx/F415xx/F417xx
+I 241006 180927.987 [AWT-EventQueue-0] StatusWindow - Flash size  : 1 MBytes (default)
+I 241006 180927.988 [AWT-EventQueue-0] StatusWindow - Device type : MCU
+I 241006 180927.989 [AWT-EventQueue-0] StatusWindow - Revision ID : --  
+I 241006 180927.990 [AWT-EventQueue-0] StatusWindow - Device CPU  : Cortex-M4
+I 241006 180927.991 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180927.992 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180927.993 [AWT-EventQueue-0] StatusWindow - Memory Programming ...
+I 241006 180927.994 [AWT-EventQueue-0] StatusWindow - Opening and parsing file: rusefi.bin
+I 241006 180927.995 [AWT-EventQueue-0] StatusWindow -   File          : rusefi.bin
+I 241006 180927.996 [AWT-EventQueue-0] StatusWindow -   Size          : 531.97 KB 
+I 241006 180927.998 [AWT-EventQueue-0] StatusWindow -   Address       : 0x08000000 
+I 241006 180927.999 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180928.000 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180928.001 [AWT-EventQueue-0] StatusWindow - Erasing memory corresponding to segment 0:
+I 241006 180928.002 [AWT-EventQueue-0] StatusWindow - Erasing internal memory sectors [0 8]
+I 241006 180928.003 [AWT-EventQueue-0] StatusWindow - erasing sector 0000 @: 0x08000000 done
+I 241006 180928.005 [AWT-EventQueue-0] StatusWindow - erasing sector 0001 @: 0x08004000 done
+I 241006 180928.006 [AWT-EventQueue-0] StatusWindow - erasing sector 0002 @: 0x08008000 done
+I 241006 180928.007 [AWT-EventQueue-0] StatusWindow - erasing sector 0003 @: 0x0800c000 done
+I 241006 180928.008 [AWT-EventQueue-0] StatusWindow - erasing sector 0004 @: 0x08010000 done
+I 241006 180928.009 [AWT-EventQueue-0] StatusWindow - erasing sector 0005 @: 0x08020000 done
+I 241006 180928.010 [AWT-EventQueue-0] StatusWindow - erasing sector 0006 @: 0x08040000 done
+I 241006 180928.011 [AWT-EventQueue-0] StatusWindow - erasing sector 0007 @: 0x08060000 done
+I 241006 180928.012 [AWT-EventQueue-0] StatusWindow - erasing sector 0008 @: 0x08080000 done
+I 241006 180928.013 [AWT-EventQueue-0] StatusWindow - Download in Progress:
+I 241006 180928.222 [AWT-EventQueue-0] StatusWindow - 北北北北北北北北北北北北北北北北北北北北北北北北北 0%
+I 241006 180928.227 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 180929.140 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180929.451 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180929.451 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180929.453 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180929.453 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180929.453 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180929.454 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180929.454 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180929.455 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+E 241006 180929.455 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180929.455 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180929.455 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180929.456 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180929.456 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180929.456 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+E 241006 180929.456 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180929.457 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180929.457 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180929.458 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180929.459 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 180930.246 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180930.559 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 180931.356 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180931.664 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180931.664 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180931.665 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180931.665 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180931.666 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 180931.666 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180931.666 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 180931.666 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180931.666 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 180931.667 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+E 241006 180931.667 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180931.667 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180931.667 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 180931.667 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180931.667 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180931.668 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180931.668 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180931.668 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180931.669 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 180932.508 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180932.819 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 180933.613 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180933.929 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180933.929 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180933.931 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180933.931 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180933.932 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180933.932 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180933.932 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+E 241006 180933.932 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180933.932 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180933.932 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180933.933 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180933.933 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180933.933 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180933.933 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+E 241006 180933.933 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180933.933 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 180933.934 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180933.934 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180933.934 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180934.791 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180935.100 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 180935.934 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180936.237 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180936.237 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180936.238 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180936.238 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180936.238 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 180936.238 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180936.238 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180936.238 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180936.238 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180936.239 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180936.239 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 180936.239 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 180936.239 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+E 241006 180936.239 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180936.239 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180936.239 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 180936.240 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180936.240 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180936.240 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180937.047 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180937.363 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180938.239 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180938.356 [AWT-EventQueue-0] StatusWindow -   2%  4%  6%  8% 10% 12% 14% 16% 18% 20% 22% 24% 26% 28% 30% 32% 34% 36% 38% 40% 42% 44% 46% 48% 50% 52% 54% 56% 58% 60% 62% 64% 66% 68% 70% 72% 74% 76% 78% 80% 82% 84% 86% 88% 90% 92% 94% 96% 98% 100%
+I 241006 180938.360 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180938.362 [AWT-EventQueue-0] StatusWindow - File download complete
+I 241006 180938.365 [AWT-EventQueue-0] StatusWindow - Time elapsed during download operation: 00:00:20.719
+I 241006 180938.367 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180938.370 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180938.372 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180938.374 [AWT-EventQueue-0] StatusWindow - Verifying ...
+I 241006 180938.378 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180938.379 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180938.380 [AWT-EventQueue-0] StatusWindow - Read progress:
+I 241006 180938.392 [AWT-EventQueue-0] StatusWindow - 北北北北北北北北北北北北北北北北北北北北北北北北北 50%
+I 241006 180938.556 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180938.556 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180938.558 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180938.558 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180938.558 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180938.559 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180938.560 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180938.560 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180938.560 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180938.560 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180938.561 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 180938.561 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 180938.561 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180938.562 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+E 241006 180938.562 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180938.562 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 180938.563 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180938.563 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180938.565 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 180939.359 [AWT-EventQueue-0] StatusWindow -   2%  4%  6%  8% 10% 12% 14% 16% 18% 20% 22% 24% 26% 28% 30% 32% 34% 36% 38% 40% 42% 44% 46% 48% 50% 52% 54% 56% 58% 60% 62% 64% 66% 68% 70% 72% 74% 76% 78% 80% 82% 84% 86% 88% 90% 92% 94% 96% 98% 100%
+I 241006 180939.359 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180939.359 [AWT-EventQueue-0] StatusWindow - Download verified successfully 
+I 241006 180939.359 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180939.359 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180939.359 [AWT-EventQueue-0] StatusWindow - 
+I 241006 180939.359 [AWT-EventQueue-0] StatusWindow - RUNNING Program ... 
+I 241006 180939.359 [AWT-EventQueue-0] StatusWindow -   Address:      : 0x8000000
+I 241006 180939.359 [AWT-EventQueue-0] StatusWindow - Start operation achieved successfully
+I 241006 180939.375 [AWT-EventQueue-0] StatusWindow - SUCCESS!
+I 241006 180939.375 [AWT-EventQueue-0] StatusWindow - Please power cycle device to exit DFU mode
+I 241006 180939.452 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180939.766 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180940.798 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180941.108 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180941.108 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180941.108 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180941.108 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180941.112 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180941.113 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180941.113 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180941.113 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180941.113 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180941.113 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180941.113 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180941.113 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180941.114 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 180941.114 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180941.114 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180941.114 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 180941.114 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180941.114 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180941.114 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180941.933 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180942.248 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180943.109 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180943.422 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180943.422 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180943.422 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180943.422 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180943.426 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180943.426 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180943.426 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+E 241006 180943.426 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180943.426 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180943.427 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 180943.427 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+E 241006 180943.427 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180943.427 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180943.427 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+E 241006 180943.427 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180943.428 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 180943.428 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180943.428 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180943.428 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180944.363 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180944.663 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180945.474 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180945.785 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180945.785 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180945.785 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180945.785 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180945.790 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180945.790 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180945.791 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+E 241006 180945.791 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180945.791 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180945.791 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180945.791 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180945.791 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180945.791 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180945.792 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180945.792 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 180945.792 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180945.792 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180945.792 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180945.792 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180946.601 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180946.909 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180947.815 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180948.139 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180948.139 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180948.139 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180948.139 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180948.148 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 180948.148 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180948.149 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 180948.149 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+E 241006 180948.149 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180948.150 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 180948.150 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180948.150 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180948.151 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 180948.151 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180948.152 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180948.152 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180948.152 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180948.152 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180948.152 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180948.980 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180949.295 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180950.459 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180950.769 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180950.769 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180950.769 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180950.769 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180950.773 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180950.773 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180950.773 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180950.773 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+E 241006 180950.773 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180950.774 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 180950.774 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180950.774 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 180950.774 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180950.774 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+E 241006 180950.774 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180950.775 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180950.775 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180950.775 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180950.775 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180951.709 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180952.021 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180953.031 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180953.343 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180953.343 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180953.343 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180953.343 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180953.347 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180953.348 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180953.348 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 180953.348 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180953.348 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180953.348 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 180953.349 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+E 241006 180953.349 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180953.349 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 180953.349 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+E 241006 180953.350 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180953.350 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180953.350 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180953.350 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180953.350 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180954.354 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180954.668 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180955.478 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180955.790 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180955.790 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180955.790 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180955.790 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180955.800 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 180955.800 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180955.801 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180955.801 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180955.801 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180955.801 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180955.801 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 180955.801 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180955.801 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 180955.801 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+E 241006 180955.801 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180955.801 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180955.801 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180955.801 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180955.801 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180956.875 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180957.189 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180958.168 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180958.481 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 180958.481 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 180958.481 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 180958.481 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 180958.481 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 180958.488 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180958.488 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 180958.488 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 180958.488 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 180958.488 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 180958.488 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+E 241006 180958.488 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180958.488 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 180958.488 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 180958.488 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 180958.488 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 180958.488 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 180958.488 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 180958.488 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 180959.300 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 180959.613 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181000.555 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181000.870 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 181000.870 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 181000.870 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 181000.870 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 181000.880 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 181000.880 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181000.880 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 181000.880 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181000.881 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 181000.881 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 181000.881 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 181000.881 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 181000.881 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 181000.881 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181000.882 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 181000.881 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 181000.882 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 181000.882 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 181000.882 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181001.824 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181002.137 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181003.007 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181003.321 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 181003.321 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 181003.321 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 181003.321 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 181003.325 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 181003.325 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181003.326 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 181003.326 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181003.326 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 181003.326 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 181003.326 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 181003.326 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 181003.326 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181003.326 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+E 241006 181003.326 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181003.326 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 181003.326 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 181003.326 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 181003.326 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181004.210 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181004.518 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181005.377 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181005.689 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 181005.689 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 181005.689 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 181005.689 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 181005.699 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 181005.730 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181005.730 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181005.730 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+E 241006 181005.730 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181005.732 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 181005.732 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 181005.733 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 181005.733 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+E 241006 181005.734 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181005.734 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 181005.734 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 181005.734 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 181005.734 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 181005.734 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181006.700 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181007.001 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181007.840 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181008.154 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 181008.154 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 181008.154 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 181008.184 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 181008.184 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 181008.191 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181008.191 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 181008.191 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181008.192 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 181008.192 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 181008.192 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181008.192 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 181008.192 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 181008.192 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181008.192 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181008.192 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 181008.192 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 181008.192 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 181008.192 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181009.048 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181009.360 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181010.323 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181010.636 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 181010.636 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 181010.636 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 181010.636 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 181010.636 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 181010.643 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181010.643 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+E 241006 181010.643 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181010.644 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 181010.644 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181010.644 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181010.644 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 181010.644 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 181010.644 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+E 241006 181010.645 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181010.645 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 181010.645 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 181010.645 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 181010.645 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181011.451 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181011.752 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181012.725 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181013.034 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 181013.034 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 181013.034 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 181013.049 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181013.049 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181013.049 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 181013.049 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181013.049 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181013.049 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 181013.049 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 181013.052 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 181013.053 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181013.053 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 181013.053 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 181013.053 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181013.053 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 181013.053 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 181013.053 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 181013.053 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181014.390 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181014.705 [SerialPortScanner inspectPort COM6] SerialPortScanner - Determining type of serial port: COM6
+I 241006 181014.705 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+I 241006 181014.990 [SerialPortScanner inspectPort COM6] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 181014.990 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closing port...
+I 241006 181014.995 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closed port.
+I 241006 181014.995 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 does not look like an OpenBLT bootloader
+I 241006 181014.995 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+I 241006 181015.005 [SerialPortScanner inspectPort COM6] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM6
+I 241006 181015.005 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closing port...
+I 241006 181015.010 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closed port.
+I 241006 181015.010 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 looks like an ECU
+I 241006 181015.010 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+I 241006 181015.015 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closing port...
+I 241006 181015.020 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closed port.
+I 241006 181015.020 [SerialPortScanner inspectPort COM6] SerialPortScanner - ECU at COM6 does not have an OpenBLT bootloader
+I 241006 181015.020 [Ports Scanner] SerialPortScanner - Port COM6 detected as: ECU
+I 241006 181015.020 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181016.370 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 181016.370 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 181016.370 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 181016.370 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 181016.374 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 181016.374 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181016.374 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+E 241006 181016.374 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181016.375 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 181016.375 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 181016.375 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 181016.375 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 181016.375 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 181016.375 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181016.376 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 181016.376 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 181016.376 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 181016.376 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 181016.376 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181017.686 [Ports Scanner] SerialPortCache - Expired port is removed: COM6
+I 241006 181017.686 [SerialPortScanner inspectPort COM6] SerialPortScanner - Determining type of serial port: COM6
+I 241006 181017.686 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+I 241006 181017.957 [SerialPortScanner inspectPort COM6] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 181017.957 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closing port...
+I 241006 181017.957 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closed port.
+I 241006 181017.957 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 does not look like an OpenBLT bootloader
+I 241006 181017.957 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+I 241006 181017.957 [SerialPortScanner inspectPort COM6] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM6
+I 241006 181017.957 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closing port...
+I 241006 181017.973 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closed port.
+I 241006 181017.973 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 looks like an ECU
+I 241006 181017.973 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+I 241006 181017.973 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closing port...
+I 241006 181017.973 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closed port.
+I 241006 181017.973 [SerialPortScanner inspectPort COM6] SerialPortScanner - ECU at COM6 does not have an OpenBLT bootloader
+I 241006 181017.988 [Ports Scanner] SerialPortScanner - Port COM6 detected as: ECU
+I 241006 181017.988 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181019.402 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 181019.403 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 181019.404 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 181019.404 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 181019.404 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 181019.405 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181019.405 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181019.406 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181019.406 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 181019.406 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 181019.406 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181019.406 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181019.406 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 181019.406 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+E 241006 181019.407 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181019.407 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 181019.408 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 181019.408 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 181019.409 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 181020.649 [Ports Scanner] SerialPortCache - Expired port is removed: COM6
+I 241006 181020.649 [SerialPortScanner inspectPort COM6] SerialPortScanner - Determining type of serial port: COM6
+I 241006 181020.649 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+E 241006 181020.649 [SerialPortScanner inspectPort COM6] SerialIoStream - Error opening COM6 maybe no permissions?
+I 241006 181020.649 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 does not look like an OpenBLT bootloader
+I 241006 181020.649 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+E 241006 181020.649 [SerialPortScanner inspectPort COM6] SerialIoStream - Error opening COM6 maybe no permissions?
+I 241006 181020.649 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 does not look like an ECU
+I 241006 181020.649 [Ports Scanner] SerialPortScanner - Port COM6 detected as: Unknown
+I 241006 181020.649 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181021.732 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181022.039 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 181022.040 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 181022.040 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 181022.040 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 181022.041 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 181022.041 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181022.041 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181022.041 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181022.041 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 181022.042 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 181022.042 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 181022.042 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181022.042 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181022.042 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+E 241006 181022.042 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181022.042 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 181022.042 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 181022.043 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 181022.043 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181023.054 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181023.371 [Ports Scanner] SerialPortCache - Expired port is removed: COM6
+I 241006 181023.372 [SerialPortScanner inspectPort COM6] SerialPortScanner - Determining type of serial port: COM6
+I 241006 181023.372 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+I 241006 181023.632 [SerialPortScanner inspectPort COM6] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 181023.633 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closing port...
+I 241006 181023.639 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closed port.
+I 241006 181023.639 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 does not look like an OpenBLT bootloader
+I 241006 181023.640 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+I 241006 181023.647 [SerialPortScanner inspectPort COM6] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM6
+I 241006 181023.648 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closing port...
+I 241006 181023.653 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closed port.
+I 241006 181023.653 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 looks like an ECU
+I 241006 181023.653 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+I 241006 181023.662 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closing port...
+I 241006 181023.669 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closed port.
+I 241006 181023.669 [SerialPortScanner inspectPort COM6] SerialPortScanner - ECU at COM6 does not have an OpenBLT bootloader
+I 241006 181023.670 [Ports Scanner] SerialPortScanner - Port COM6 detected as: ECU
+I 241006 181023.671 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181024.897 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 181024.897 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 181024.898 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 181024.898 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 181024.898 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 181024.898 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181024.898 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 181024.899 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181024.899 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 181024.899 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 181024.899 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 181024.899 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181024.899 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181024.899 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+E 241006 181024.899 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181024.900 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 181024.900 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 181024.900 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 181024.901 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 181026.326 [Ports Scanner] SerialPortCache - Expired port is removed: COM6
+I 241006 181026.327 [SerialPortScanner inspectPort COM6] SerialPortScanner - Determining type of serial port: COM6
+I 241006 181026.327 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+I 241006 181026.587 [SerialPortScanner inspectPort COM6] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 181026.588 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closing port...
+I 241006 181026.594 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closed port.
+I 241006 181026.594 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 does not look like an OpenBLT bootloader
+I 241006 181026.596 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+I 241006 181026.604 [SerialPortScanner inspectPort COM6] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM6
+I 241006 181026.604 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closing port...
+I 241006 181026.612 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closed port.
+I 241006 181026.612 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 looks like an ECU
+I 241006 181026.612 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+I 241006 181026.620 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closing port...
+I 241006 181026.628 [SerialPortScanner inspectPort COM6] SerialIoStream - COM6: Closed port.
+I 241006 181026.628 [SerialPortScanner inspectPort COM6] SerialPortScanner - ECU at COM6 does not have an OpenBLT bootloader
+I 241006 181026.629 [Ports Scanner] SerialPortScanner - Port COM6 detected as: ECU
+I 241006 181026.630 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 181027.811 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 181027.812 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 181027.812 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 181027.812 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 181027.813 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 181027.813 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181027.813 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181027.814 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+E 241006 181027.814 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181027.814 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 181027.814 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 181027.814 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181027.814 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+E 241006 181027.815 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181027.815 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 181027.815 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 181027.815 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 181027.815 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 181027.815 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181029.284 [Ports Scanner] SerialPortCache - Expired port is removed: COM6
+I 241006 181029.285 [SerialPortScanner inspectPort COM6] SerialPortScanner - Determining type of serial port: COM6
+I 241006 181029.285 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+E 241006 181029.285 [SerialPortScanner inspectPort COM6] SerialIoStream - Error opening COM6 maybe no permissions?
+I 241006 181029.285 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 does not look like an OpenBLT bootloader
+I 241006 181029.286 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+E 241006 181029.286 [SerialPortScanner inspectPort COM6] SerialIoStream - Error opening COM6 maybe no permissions?
+I 241006 181029.286 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 does not look like an ECU
+I 241006 181029.286 [Ports Scanner] SerialPortScanner - Port COM6 detected as: Unknown
+I 241006 181029.287 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 181030.440 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181030.757 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 181030.757 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 181030.758 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 181030.758 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 181030.758 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 181030.758 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181030.758 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181030.758 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+E 241006 181030.758 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181030.758 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 181030.758 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 181030.759 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181030.759 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+E 241006 181030.759 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181030.759 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 181030.759 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 181030.759 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 181030.759 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 181030.759 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181031.867 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181032.169 [Ports Scanner] SerialPortCache - Expired port is removed: COM6
+I 241006 181032.175 [SerialPortScanner inspectPort COM6] SerialPortScanner - Determining type of serial port: COM6
+I 241006 181032.176 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+E 241006 181032.176 [SerialPortScanner inspectPort COM6] SerialIoStream - Error opening COM6 maybe no permissions?
+I 241006 181032.176 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 does not look like an OpenBLT bootloader
+I 241006 181032.176 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+E 241006 181032.176 [SerialPortScanner inspectPort COM6] SerialIoStream - Error opening COM6 maybe no permissions?
+I 241006 181032.176 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 does not look like an ECU
+I 241006 181032.177 [Ports Scanner] SerialPortScanner - Port COM6 detected as: Unknown
+I 241006 181032.178 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 181033.370 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181033.681 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 181033.681 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 181033.682 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 181033.682 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 181033.684 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 181033.684 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181033.684 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181033.684 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+E 241006 181033.684 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181033.685 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 181033.685 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 181033.685 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181033.685 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181033.685 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+E 241006 181033.685 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181033.685 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 181033.686 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 181033.686 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 181033.687 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 181034.819 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181035.129 [Ports Scanner] SerialPortCache - Expired port is removed: COM6
+I 241006 181035.129 [SerialPortScanner inspectPort COM6] SerialPortScanner - Determining type of serial port: COM6
+I 241006 181035.129 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+E 241006 181035.129 [SerialPortScanner inspectPort COM6] SerialIoStream - Error opening COM6 maybe no permissions?
+I 241006 181035.129 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 does not look like an OpenBLT bootloader
+I 241006 181035.129 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+E 241006 181035.129 [SerialPortScanner inspectPort COM6] SerialIoStream - Error opening COM6 maybe no permissions?
+I 241006 181035.129 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 does not look like an ECU
+I 241006 181035.129 [Ports Scanner] SerialPortScanner - Port COM6 detected as: Unknown
+I 241006 181035.129 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181036.321 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181036.634 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 181036.634 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 181036.634 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 181036.634 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 181036.636 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 181036.636 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181036.636 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 181036.636 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 181036.637 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 181036.637 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181036.637 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+E 241006 181036.637 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181036.637 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 181036.637 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181036.637 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181036.637 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 181036.637 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 181036.637 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 181036.637 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181037.955 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181038.270 [Ports Scanner] SerialPortCache - Expired port is removed: COM6
+I 241006 181038.270 [SerialPortScanner inspectPort COM6] SerialPortScanner - Determining type of serial port: COM6
+I 241006 181038.270 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+E 241006 181038.270 [SerialPortScanner inspectPort COM6] SerialIoStream - Error opening COM6 maybe no permissions?
+I 241006 181038.270 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 does not look like an OpenBLT bootloader
+I 241006 181038.273 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+E 241006 181038.273 [SerialPortScanner inspectPort COM6] SerialIoStream - Error opening COM6 maybe no permissions?
+I 241006 181038.273 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 does not look like an ECU
+I 241006 181038.273 [Ports Scanner] SerialPortScanner - Port COM6 detected as: Unknown
+I 241006 181038.273 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181039.392 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181039.704 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 181039.704 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 181039.704 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 181039.704 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 181039.708 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 181039.708 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 181039.709 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+E 241006 181039.709 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181039.709 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 181039.709 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 181039.709 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 181039.710 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 181039.710 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+E 241006 181039.710 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181039.710 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 181039.710 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 181039.711 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 181039.711 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 181039.711 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 181040.735 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181041.046 [Ports Scanner] SerialPortCache - Expired port is removed: COM6
+I 241006 181041.047 [SerialPortScanner inspectPort COM6] SerialPortScanner - Determining type of serial port: COM6
+I 241006 181041.047 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+E 241006 181041.048 [SerialPortScanner inspectPort COM6] SerialIoStream - Error opening COM6 maybe no permissions?
+I 241006 181041.048 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 does not look like an OpenBLT bootloader
+I 241006 181041.048 [SerialPortScanner inspectPort COM6] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM6
+E 241006 181041.048 [SerialPortScanner inspectPort COM6] SerialIoStream - Error opening COM6 maybe no permissions?
+I 241006 181041.048 [SerialPortScanner inspectPort COM6] SerialPortScanner - Port COM6 does not look like an ECU
+I 241006 181041.048 [Ports Scanner] SerialPortScanner - Port COM6 detected as: Unknown
+I 241006 181041.049 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 181041.779 [AWT-EventQueue-0] FrameHelper - Non-daemon thread: Thread[AWT-Shutdown,5,system]
+I 241006 181041.779 [AWT-EventQueue-0] FrameHelper - Non-daemon thread: Thread[DestroyJavaVM,5,main]
+I 241006 181041.779 [AWT-EventQueue-0] FrameHelper - Non-daemon thread: Thread[AWT-EventQueue-0,6,main]
+I 241006 181041.828 [AWT-EventQueue-0] FrameHelper - [javax.swing.JFrame[frame0,516,244,259x380,layout=java.awt.BorderLayout,title=rusefi basic console 20241002 rusefi.snapshot.mega100,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,245x343,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true], javax.swing.JFrame[frame1,433,208,414x437,invalid,hidden,layout=java.awt.BorderLayout,title=DFU update 20241002 rusefi.snapshot.mega100,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,400x400,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]
+I 241006 181042.251 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 181042.551 [Ports Scanner] SerialPortCache - Expired port is removed: COM4
+I 241006 181042.551 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 181042.551 [SerialPortScanner inspectPort COM4] SerialPortScanner - Determining type of serial port: COM4
+I 241006 181042.551 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 181042.554 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+I 241006 181042.554 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181042.554 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+E 241006 181042.554 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181042.554 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 181042.555 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an OpenBLT bootloader
+I 241006 181042.555 [SerialPortScanner inspectPort COM4] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM4
+E 241006 181042.555 [SerialPortScanner inspectPort COM4] SerialIoStream - Error opening COM4 maybe no permissions?
+I 241006 181042.555 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 181042.555 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 181042.556 [SerialPortScanner inspectPort COM4] SerialPortScanner - Port COM4 does not look like an ECU
+I 241006 181042.556 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an ECU
+I 241006 181042.556 [Ports Scanner] SerialPortScanner - Port COM5 detected as: Unknown
+I 241006 181042.556 [Ports Scanner] SerialPortScanner - Port COM4 detected as: Unknown
+I 241006 181042.556 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms

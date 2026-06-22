@@ -1,0 +1,21 @@
+I 241014 235542.684 [main] Autoupdate - Version 20241004
+I 241014 235542.710 [main] Autoupdate - Compiled Mon Oct 14 23:49:52 CEST 2024
+I 241014 235542.711 [main] Autoupdate - Handling parent folder name [rusefi.snapshot.mega100]
+I 241014 235542.712 [main] Autoupdate - Snapshot requested
+I 241014 235542.734 [main] FindFileHelper - Searching for *srec in C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241014 235543.960 [main] Autoupdate - Remote file rusefi_bundle_mega100_autoupdate.zip
+I 241014 235543.965 [main] Autoupdate - Server has 11901096 from Mon Oct 14 02:18:31 CEST 2024
+I 241014 235543.975 [main] Autoupdate - We already have latest update Mon Oct 14 02:18:31 CEST 2024
+I 241014 235543.976 [main] JarFileUtil - jarFilePrefix = rusefi
+I 241014 235543.988 [main] Autoupdate - Running console with [basic-ui]
+I 241014 235543.988 [main] Launcher - rusEFI UI console 20241002
+I 241014 235543.988 [main] Launcher - Compiled Mon Oct 14 23:49:52 CEST 2024
+I 241014 235543.988 [main] Launcher - 
+
+
+I 241014 235544.133 [AWT-EventQueue-0] FindFileHelper - Searching for *srec in C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241014 235544.571 [AWT-EventQueue-0] FindFileHelper - Searching for *srec in C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241014 235544.913 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 3ms
+I 241014 235545.991 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241014 235546.292 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241014 235547.564 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms

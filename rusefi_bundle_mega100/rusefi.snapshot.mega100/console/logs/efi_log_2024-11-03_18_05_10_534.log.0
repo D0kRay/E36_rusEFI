@@ -1,0 +1,170 @@
+I 241103 180510.554 [main] Launcher - rusEFI UI console 20241002
+I 241103 180510.592 [main] Launcher - Compiled Sun Oct 27 10:00:20 CET 2024
+I 241103 180510.592 [main] Launcher - 
+
+
+I 241103 180510.656 [main] ConsoleUI - OS name: Windows 10
+I 241103 180510.656 [main] ConsoleUI - OS version: 10.0
+I 241103 180510.696 [Thread-1] LazyFileImpl - LazyFileImpl: Not updating logs/README.html since looks to be the same content, new content size=171
+I 241103 180511.041 [AWT-EventQueue-0] JustOneInstance - No other instances seem to be running
+I 241103 180511.046 [JustOneInstance] JustOneInstance - server socket 29213
+I 241103 180511.142 [AWT-EventQueue-0] MessagesCentral - postMessage Launcher: Available port: COM10
+I 241103 180511.143 [AWT-EventQueue-0] MessagesCentral - postMessage Launcher: Available port: COM9
+I 241103 180511.494 [AWT-EventQueue-0] Launcher - rusefi console 20241002
+I 241103 180511.815 [AWT-EventQueue-0] FindFileHelper - Searching for *srec in C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241103 180511.841 [SerialPortScanner inspectPort COM9] SerialPortScanner - Determining type of serial port: COM9
+I 241103 180511.841 [SerialPortScanner inspectPort COM10] SerialPortScanner - Determining type of serial port: COM10
+I 241103 180511.845 [SerialPortScanner inspectPort COM9] SerialIoStream - Using com.fazecast.jSerialComm 2.11.0
+I 241103 180511.845 [SerialPortScanner inspectPort COM9] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM9
+I 241103 180511.845 [SerialPortScanner inspectPort COM10] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM10
+I 241103 180512.107 [AWT-EventQueue-0] Launcher - setVisible
+I 241103 180516.852 [Ports Scanner] SerialPortScanner - Port COM10 timed out, adding as Unknown.
+I 241103 180516.853 [Ports Scanner] SerialPortScanner - Port COM9 timed out, adding as Unknown.
+I 241103 180516.857 [Ports Scanner] SerialPortScanner - Port COM10 detected as: Unknown
+I 241103 180516.858 [Ports Scanner] SerialPortScanner - Port COM9 detected as: Unknown
+I 241103 180516.863 [AWT-EventQueue-0] FindFileHelper - Searching for *srec in C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241103 180516.882 [AWT-EventQueue-0] Launcher - Rendering available ports: [COM10 (Unknown), COM9 (Unknown)]
+E 241103 180517.036 [SerialPortScanner inspectPort COM10] SerialIoStream - Error opening COM10 maybe no permissions?
+I 241103 180517.037 [SerialPortScanner inspectPort COM10] SerialPortScanner - Port COM10 does not look like an OpenBLT bootloader
+I 241103 180517.037 [SerialPortScanner inspectPort COM10] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM10
+I 241103 180517.191 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241103 180519.875 [Ports Scanner] SerialPortCache - Expired port is removed: COM10
+I 241103 180519.875 [Ports Scanner] SerialPortCache - Expired port is removed: COM9
+I 241103 180519.876 [SerialPortScanner inspectPort COM10] SerialPortScanner - Determining type of serial port: COM10
+I 241103 180519.876 [SerialPortScanner inspectPort COM9] SerialPortScanner - Determining type of serial port: COM9
+I 241103 180519.878 [SerialPortScanner inspectPort COM10] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM10
+I 241103 180519.878 [SerialPortScanner inspectPort COM9] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM9
+E 241103 180519.878 [SerialPortScanner inspectPort COM10] SerialIoStream - Error opening COM10 maybe no permissions?
+E 241103 180519.879 [SerialPortScanner inspectPort COM9] SerialIoStream - Error opening COM9 maybe no permissions?
+I 241103 180519.879 [SerialPortScanner inspectPort COM10] SerialPortScanner - Port COM10 does not look like an OpenBLT bootloader
+I 241103 180519.879 [SerialPortScanner inspectPort COM9] SerialPortScanner - Port COM9 does not look like an OpenBLT bootloader
+I 241103 180519.879 [SerialPortScanner inspectPort COM10] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM10
+I 241103 180519.879 [SerialPortScanner inspectPort COM9] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM9
+E 241103 180519.880 [SerialPortScanner inspectPort COM10] SerialIoStream - Error opening COM10 maybe no permissions?
+E 241103 180519.880 [SerialPortScanner inspectPort COM9] SerialIoStream - Error opening COM9 maybe no permissions?
+I 241103 180519.913 [SerialPortScanner inspectPort COM9] SerialPortScanner - Port COM9 does not look like an ECU
+I 241103 180519.913 [SerialPortScanner inspectPort COM10] SerialPortScanner - Port COM10 does not look like an ECU
+I 241103 180519.915 [Ports Scanner] SerialPortScanner - Port COM10 detected as: Unknown
+I 241103 180519.915 [Ports Scanner] SerialPortScanner - Port COM9 detected as: Unknown
+I 241103 180519.916 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241103 180522.090 [Ports Scanner] SerialPortCache - Expired port is removed: COM10
+I 241103 180522.090 [Ports Scanner] SerialPortCache - Expired port is removed: COM9
+I 241103 180522.090 [SerialPortScanner inspectPort COM10] SerialPortScanner - Determining type of serial port: COM10
+I 241103 180522.090 [SerialPortScanner inspectPort COM9] SerialPortScanner - Determining type of serial port: COM9
+I 241103 180522.094 [SerialPortScanner inspectPort COM10] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM10
+I 241103 180522.095 [SerialPortScanner inspectPort COM9] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM9
+E 241103 180522.095 [SerialPortScanner inspectPort COM9] SerialIoStream - Error opening COM9 maybe no permissions?
+E 241103 180522.095 [SerialPortScanner inspectPort COM10] SerialIoStream - Error opening COM10 maybe no permissions?
+I 241103 180522.096 [SerialPortScanner inspectPort COM9] SerialPortScanner - Port COM9 does not look like an OpenBLT bootloader
+I 241103 180522.097 [SerialPortScanner inspectPort COM10] SerialPortScanner - Port COM10 does not look like an OpenBLT bootloader
+I 241103 180522.097 [SerialPortScanner inspectPort COM10] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM10
+I 241103 180522.098 [SerialPortScanner inspectPort COM9] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM9
+E 241103 180522.098 [SerialPortScanner inspectPort COM10] SerialIoStream - Error opening COM10 maybe no permissions?
+E 241103 180522.098 [SerialPortScanner inspectPort COM9] SerialIoStream - Error opening COM9 maybe no permissions?
+I 241103 180522.099 [SerialPortScanner inspectPort COM10] SerialPortScanner - Port COM10 does not look like an ECU
+I 241103 180522.099 [SerialPortScanner inspectPort COM9] SerialPortScanner - Port COM9 does not look like an ECU
+I 241103 180522.100 [Ports Scanner] SerialPortScanner - Port COM10 detected as: Unknown
+I 241103 180522.100 [Ports Scanner] SerialPortScanner - Port COM9 detected as: Unknown
+I 241103 180522.102 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+E 241103 180522.163 [SerialPortScanner inspectPort COM10] SerialIoStream - Error opening COM10 maybe no permissions?
+I 241103 180522.164 [SerialPortScanner inspectPort COM10] SerialPortScanner - Port COM10 does not look like an ECU
+I 241103 180524.487 [Ports Scanner] SerialPortCache - Expired port is removed: COM10
+I 241103 180524.487 [Ports Scanner] SerialPortCache - Expired port is removed: COM9
+I 241103 180524.490 [SerialPortScanner inspectPort COM10] SerialPortScanner - Determining type of serial port: COM10
+I 241103 180524.490 [SerialPortScanner inspectPort COM9] SerialPortScanner - Determining type of serial port: COM9
+I 241103 180524.492 [SerialPortScanner inspectPort COM10] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM10
+I 241103 180524.493 [SerialPortScanner inspectPort COM9] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM9
+E 241103 180524.494 [SerialPortScanner inspectPort COM9] SerialIoStream - Error opening COM9 maybe no permissions?
+I 241103 180524.494 [SerialPortScanner inspectPort COM9] SerialPortScanner - Port COM9 does not look like an OpenBLT bootloader
+I 241103 180524.495 [SerialPortScanner inspectPort COM9] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM9
+E 241103 180524.495 [SerialPortScanner inspectPort COM9] SerialIoStream - Error opening COM9 maybe no permissions?
+I 241103 180524.496 [SerialPortScanner inspectPort COM9] SerialPortScanner - Port COM9 does not look like an ECU
+I 241103 180527.407 [ECU Communication Executor1] LinkManager - communicationThread lookup DONE
+I 241103 180527.435 [ECU Commands Queue] LinkManager - class com.rusefi.io.CommandQueue: SerialIO started
+I 241103 180527.489 [AWT-EventQueue-0] ConsoleUI - init...
+I 241103 180527.536 [AWT-EventQueue-0] ConsoleUI - Console 20241002
+I 241103 180527.540 [AWT-EventQueue-0] ConsoleUI - Hardware: F4
+I 241103 180527.543 [AWT-EventQueue-0] LinkManager - LinkManager: Starting COM10
+I 241103 180529.238 [AWT-EventQueue-0] MessagesCentral - postMessage ConsoleUI: COMPOSITE_OFF_RPM=700
+I 241103 180529.244 [AWT-EventQueue-0] ConsoleUI - showFrame
+I 241103 180529.494 [Ports Scanner] SerialPortScanner - Port COM10 timed out, adding as Unknown.
+I 241103 180529.495 [Ports Scanner] SerialPortScanner - Port COM10 detected as: Unknown
+I 241103 180529.495 [Ports Scanner] SerialPortScanner - Port COM9 detected as: Unknown
+I 241103 180529.497 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+E 241103 180529.680 [SerialPortScanner inspectPort COM10] SerialIoStream - Error opening COM10 maybe no permissions?
+I 241103 180529.681 [SerialPortScanner inspectPort COM10] SerialPortScanner - Port COM10 does not look like an OpenBLT bootloader
+I 241103 180529.681 [SerialPortScanner inspectPort COM10] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM10
+I 241103 180530.488 [AWT-EventQueue-0] Launcher - onWindowOpened
+I 241103 180530.492 [AWT-EventQueue-0] StreamConnector - StreamConnector: connecting
+I 241103 180530.492 [AWT-EventQueue-0] StreamConnector - scheduleOpening
+I 241103 180530.495 [ECU Communication Executor1] StreamConnector - scheduleOpening>openPort
+I 241103 180530.497 [ECU Communication Executor1] LinkManager - class com.rusefi.io.LinkManager$5: Opening port: COM10
+I 241103 180530.498 [ECU Communication Executor1] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM10
+E 241103 180530.498 [ECU Communication Executor1] SerialIoStream - Error opening COM10 maybe no permissions?
+E 241103 180534.797 [SerialPortScanner inspectPort COM10] SerialIoStream - Error opening COM10 maybe no permissions?
+I 241103 180534.797 [SerialPortScanner inspectPort COM10] SerialPortScanner - Port COM10 does not look like an ECU
+E 241103 180541.611 [ECU Commands Queue] CommandQueue - Major connectivity error
+java.lang.IllegalStateException: No confirmation received after timeout of 500 ms
+	at com.rusefi.io.CommandQueue.sendCommand(CommandQueue.java:100)
+	at com.rusefi.io.CommandQueue.sendPendingCommand(CommandQueue.java:66)
+	at com.rusefi.io.CommandQueue$1.run(CommandQueue.java:115)
+	at java.base/java.lang.Thread.run(Unknown Source)
+I 241103 180544.856 [AWT-EventQueue-0] DefaultExceptionHandler - handleException: java.lang.IllegalStateException: Connectivity error
+	at com.rusefi.ConsoleUI.lambda$new$0(ConsoleUI.java:72)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/javax.swing.JOptionPane.showOptionDialog(Unknown Source)
+	at java.desktop/javax.swing.JOptionPane.showMessageDialog(Unknown Source)
+	at java.desktop/javax.swing.JOptionPane.showMessageDialog(Unknown Source)
+	at com.rusefi.io.serial.PortHolder.lambda$packAndSend$1(PortHolder.java:96)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: No confirmation received after timeout of 500 ms
+	at com.rusefi.io.CommandQueue.sendCommand(CommandQueue.java:100)
+	at com.rusefi.io.CommandQueue.sendPendingCommand(CommandQueue.java:66)
+	at com.rusefi.io.CommandQueue$1.run(CommandQueue.java:115)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+E 241103 180546.393 [AWT-EventQueue-0] IoUtils - No connectivity, will close
+java.lang.Exception
+	at com.rusefi.util.IoUtils.exit(IoUtils.java:16)
+	at com.rusefi.io.serial.PortHolder.lambda$packAndSend$1(PortHolder.java:98)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+I 241103 180546.399 [SerialPortScanner inspectPort COM9] SerialIoStream - COM9: Closing port...

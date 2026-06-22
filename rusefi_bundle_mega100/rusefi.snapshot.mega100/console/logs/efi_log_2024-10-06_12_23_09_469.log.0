@@ -1,0 +1,647 @@
+I 241006 122309.480 [main] Autoupdate - Version 20241004
+I 241006 122309.496 [main] Autoupdate - Compiled Sun Oct 06 02:17:50 CEST 2024
+I 241006 122309.497 [main] Autoupdate - Handling parent folder name [rusefi.snapshot.mega100]
+I 241006 122309.498 [main] Autoupdate - Snapshot requested
+I 241006 122309.509 [main] FindFileHelper - Searching for *srec in C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241006 122310.658 [main] Autoupdate - Remote file rusefi_bundle_mega100_autoupdate.zip
+I 241006 122310.661 [main] Autoupdate - Server has 11901031 from Sun Oct 06 02:18:51 CEST 2024
+I 241006 122310.677 [main] Autoupdate - BundleInfo{branchName='snapshot', target='mega100'} 11901031 bytes, last modified Sun Oct 06 02:18:51 CEST 2024
+I 241006 122317.576 [AWT-EventQueue-0] FrameHelper - Non-daemon thread: Thread[main,5,main]
+I 241006 122317.577 [AWT-EventQueue-0] FrameHelper - Non-daemon thread: Thread[AWT-Shutdown,5,system]
+I 241006 122317.577 [AWT-EventQueue-0] FrameHelper - Non-daemon thread: Thread[AWT-EventQueue-0,6,main]
+I 241006 122317.577 [main] Autoupdate - Downloaded 11901031 bytes, lastModified=1728173931000
+I 241006 122317.641 [AWT-EventQueue-0] FrameHelper - [javax.swing.JFrame[frame0,-7,-7,1295x828,invalid,hidden,layout=java.awt.BorderLayout,title=rusefi Bundle Updater 20241004,resizable,maximized,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1281x791,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]
+I 241006 122317.877 [main] JarFileUtil - jarFilePrefix = rusefi
+I 241006 122318.041 [main] FindFileHelper - Searching for *srec in C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241006 122318.041 [main] Autoupdate - Running console with [basic-ui]
+I 241006 122318.042 [main] Launcher - rusEFI UI console 20241002
+I 241006 122318.043 [main] Launcher - Compiled Sun Oct 06 12:23:18 CEST 2024
+I 241006 122318.043 [main] Launcher - 
+
+
+I 241006 122318.061 [AWT-EventQueue-0] FindFileHelper - Searching for *srec in C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241006 122318.391 [AWT-EventQueue-0] FindFileHelper - Searching for *srec in C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241006 122318.749 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122319.564 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 122319.879 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122320.795 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 3ms
+I 241006 122321.632 [AWT-EventQueue-0] StatusWindow - Console version 20241002
+I 241006 122321.646 [AWT-EventQueue-0] StatusWindow - Windows 10 10.0
+I 241006 122321.651 [AWT-EventQueue-0] StatusWindow - Bundle rusefi.snapshot.mega100
+I 241006 122321.669 [AWT-EventQueue-0] StatusWindow - Executing command=wmic path win32_pnpentity where "Caption like '%STM32%' and Caption like '%Bootloader%'" get Caption,ConfigManagerErrorCode /format:list
+I 241006 122321.699 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122321.865 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122321.866 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122321.866 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122321.867 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122321.868 [AWT-EventQueue-0] StatusWindow - Caption=STM32  BOOTLOADER
+I 241006 122321.873 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122321.874 [AWT-EventQueue-0] StatusWindow - ConfigManagerErrorCode=0
+I 241006 122321.875 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122321.876 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122321.877 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122321.879 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122321.882 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122321.883 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122321.884 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122321.887 [AWT-EventQueue-0] StatusWindow - Caption=STM32  BOOTLOADERConfigManagerErrorCode=0
+I 241006 122321.888 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122321.889 [AWT-EventQueue-0] StatusWindow - Executing command=.\STM32_Programmer_CLI/bin/STM32_Programmer_CLI.exe -c port=usb1 -w "C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..\rusefi.bin" 0x08000000 -v -s
+I 241006 122322.640 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122323.550 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 122324.476 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122325.373 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122326.304 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 122327.279 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122328.207 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 122329.101 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122330.013 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122330.923 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122331.992 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 122332.972 [AWT-EventQueue-0] StatusWindow -       -------------------------------------------------------------------
+I 241006 122332.975 [AWT-EventQueue-0] StatusWindow -                        STM32CubeProgrammer v2.17.0                  
+I 241006 122332.980 [AWT-EventQueue-0] StatusWindow -       -------------------------------------------------------------------
+I 241006 122332.983 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122332.986 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122332.989 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122332.991 [AWT-EventQueue-0] StatusWindow - USB speed   : Full Speed (12MBit/s)
+I 241006 122332.998 [AWT-EventQueue-0] StatusWindow - Manuf. ID   : STMicroelectronics
+I 241006 122332.999 [AWT-EventQueue-0] StatusWindow - Product ID  : STM32  BOOTLOADER
+I 241006 122333.001 [AWT-EventQueue-0] StatusWindow - SN          : 3362335B3431
+I 241006 122333.006 [AWT-EventQueue-0] StatusWindow - DFU protocol: 1.1
+I 241006 122333.007 [AWT-EventQueue-0] StatusWindow - Board       : --
+I 241006 122333.008 [AWT-EventQueue-0] StatusWindow - Device ID   : 0x0413
+I 241006 122333.009 [AWT-EventQueue-0] StatusWindow - Device name : STM32F405xx/F407xx/F415xx/F417xx
+I 241006 122333.010 [AWT-EventQueue-0] StatusWindow - Flash size  : 1 MBytes (default)
+I 241006 122333.011 [AWT-EventQueue-0] StatusWindow - Device type : MCU
+I 241006 122333.012 [AWT-EventQueue-0] StatusWindow - Revision ID : --  
+I 241006 122333.013 [AWT-EventQueue-0] StatusWindow - Device CPU  : Cortex-M4
+I 241006 122333.014 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122333.015 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122333.016 [AWT-EventQueue-0] StatusWindow - Memory Programming ...
+I 241006 122333.016 [AWT-EventQueue-0] StatusWindow - Opening and parsing file: rusefi.bin
+I 241006 122333.017 [AWT-EventQueue-0] StatusWindow -   File          : rusefi.bin
+I 241006 122333.018 [AWT-EventQueue-0] StatusWindow -   Size          : 531.97 KB 
+I 241006 122333.021 [AWT-EventQueue-0] StatusWindow -   Address       : 0x08000000 
+I 241006 122333.022 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122333.023 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122333.024 [AWT-EventQueue-0] StatusWindow - Erasing memory corresponding to segment 0:
+I 241006 122333.025 [AWT-EventQueue-0] StatusWindow - Erasing internal memory sectors [0 8]
+I 241006 122333.027 [AWT-EventQueue-0] StatusWindow - erasing sector 0000 @: 0x08000000 done
+I 241006 122333.029 [AWT-EventQueue-0] StatusWindow - erasing sector 0001 @: 0x08004000 done
+I 241006 122333.030 [AWT-EventQueue-0] StatusWindow - erasing sector 0002 @: 0x08008000 done
+I 241006 122333.030 [AWT-EventQueue-0] StatusWindow - erasing sector 0003 @: 0x0800c000 done
+I 241006 122333.031 [AWT-EventQueue-0] StatusWindow - erasing sector 0004 @: 0x08010000 done
+I 241006 122333.032 [AWT-EventQueue-0] StatusWindow - erasing sector 0005 @: 0x08020000 done
+I 241006 122333.032 [AWT-EventQueue-0] StatusWindow - erasing sector 0006 @: 0x08040000 done
+I 241006 122333.033 [AWT-EventQueue-0] StatusWindow - erasing sector 0007 @: 0x08060000 done
+I 241006 122333.034 [AWT-EventQueue-0] StatusWindow - erasing sector 0008 @: 0x08080000 done
+I 241006 122333.035 [AWT-EventQueue-0] StatusWindow - Download in Progress:
+I 241006 122333.121 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122333.207 [AWT-EventQueue-0] StatusWindow - 北北北北北北北北北北北北北北北北北北北北北北北北北 0%
+I 241006 122334.221 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122335.323 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122336.399 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 122337.432 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 122338.609 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122339.662 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 122340.687 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122341.726 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 122342.756 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122343.214 [AWT-EventQueue-0] StatusWindow -   2%  4%  6%  8% 10% 12% 14% 16% 18% 20% 22% 24% 26% 28% 30% 32% 34% 36% 38% 40% 42% 44% 46% 48% 50% 52% 54% 56% 58% 60% 62% 64% 66% 68% 70% 72% 74% 76% 78% 80% 82% 84% 86% 88% 90% 92% 94% 96% 98% 100%
+I 241006 122343.215 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122343.216 [AWT-EventQueue-0] StatusWindow - File download complete
+I 241006 122343.217 [AWT-EventQueue-0] StatusWindow - Time elapsed during download operation: 00:00:20.894
+I 241006 122343.217 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122343.218 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122343.219 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122343.219 [AWT-EventQueue-0] StatusWindow - Verifying ...
+I 241006 122343.221 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122343.222 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122343.222 [AWT-EventQueue-0] StatusWindow - Read progress:
+I 241006 122343.241 [AWT-EventQueue-0] StatusWindow - 北北北北北北北北北北北北北北北北北北北北北北北北北 50%
+I 241006 122343.764 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122344.445 [AWT-EventQueue-0] StatusWindow -   2%  4%  6%  8% 10% 12% 14% 16% 18% 20% 22% 24% 26% 28% 30% 32% 34% 36% 38% 40% 42% 44% 46% 48% 50% 52% 54% 56% 58% 60% 62% 64% 66% 68% 70% 72% 74% 76% 78% 80% 82% 84% 86% 88% 90% 92% 94% 96% 98% 100%
+I 241006 122344.447 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122344.450 [AWT-EventQueue-0] StatusWindow - Download verified successfully 
+I 241006 122344.451 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122344.454 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122344.455 [AWT-EventQueue-0] StatusWindow - 
+I 241006 122344.456 [AWT-EventQueue-0] StatusWindow - RUNNING Program ... 
+I 241006 122344.457 [AWT-EventQueue-0] StatusWindow -   Address:      : 0x8000000
+I 241006 122344.459 [AWT-EventQueue-0] StatusWindow - Start operation achieved successfully
+I 241006 122344.464 [AWT-EventQueue-0] StatusWindow - SUCCESS!
+I 241006 122344.465 [AWT-EventQueue-0] StatusWindow - Please power cycle device to exit DFU mode
+I 241006 122344.753 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122345.469 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 122345.783 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122346.772 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122347.844 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122348.885 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 4ms
+I 241006 122349.932 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122350.965 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122351.948 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122352.944 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122354.078 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 3ms
+I 241006 122355.097 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122356.137 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122357.180 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 3ms
+I 241006 122358.252 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122358.258 [SerialPortScanner inspectPort COM5] SerialIoStream - Using com.fazecast.jSerialComm 2.11.0
+I 241006 122358.260 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122358.545 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122358.547 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122358.555 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122358.556 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122358.556 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122358.567 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122358.567 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122358.580 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122358.580 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122358.580 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+E 241006 122358.581 [SerialPortScanner inspectPort COM5] SerialIoStream - Error opening COM5 maybe no permissions?
+I 241006 122358.582 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122358.584 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122358.586 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122359.605 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122400.520 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122401.600 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122401.600 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122401.600 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122401.862 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122401.862 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122401.876 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122401.876 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122401.877 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122401.888 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122401.889 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122401.900 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122401.900 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122401.900 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122401.913 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122401.929 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122401.930 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122401.930 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122401.932 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 122403.007 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122404.073 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122404.074 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122404.074 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122404.347 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122404.348 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122404.362 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122404.363 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122404.363 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122404.374 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122404.375 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122404.385 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122404.385 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122404.385 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122404.403 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122404.413 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122404.413 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122404.413 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122404.421 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122405.463 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 3ms
+I 241006 122406.553 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122406.553 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122406.555 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122406.824 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122406.824 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122406.833 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122406.833 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122406.833 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122406.840 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122406.840 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122406.849 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122406.849 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122406.849 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122406.856 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122406.865 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122406.865 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122406.865 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122406.866 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122407.951 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122408.953 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122408.953 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122408.954 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122409.222 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122409.222 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122409.231 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122409.231 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122409.231 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122409.238 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122409.238 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122409.249 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122409.249 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122409.249 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122409.256 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122409.264 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122409.264 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122409.264 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122409.265 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122410.317 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122411.315 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122411.315 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122411.315 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122411.596 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122411.596 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122411.606 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122411.606 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122411.606 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122411.616 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122411.616 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122411.626 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122411.626 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122411.626 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122411.633 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122411.642 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122411.642 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122411.642 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122411.643 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122412.645 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122413.714 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122413.724 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122413.725 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122413.993 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122413.993 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122413.999 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122413.999 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122413.999 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122414.011 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122414.011 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122414.022 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122414.022 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122414.022 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122414.028 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122414.038 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122414.038 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122414.038 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122414.038 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122415.048 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122416.075 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122416.076 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122416.076 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122416.352 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122416.352 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122416.367 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122416.367 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122416.368 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122416.378 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122416.378 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122416.388 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122416.388 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122416.388 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122416.404 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122416.415 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122416.415 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122416.415 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122416.422 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122417.493 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122418.593 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122418.593 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122418.593 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122418.861 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122418.862 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122418.876 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122418.876 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122418.877 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122418.887 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122418.887 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122418.901 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122418.902 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122418.902 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122418.913 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122418.926 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122418.927 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122418.927 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122418.929 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122420.018 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122421.147 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122421.147 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122421.147 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122421.436 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122421.436 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122421.444 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122421.444 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122421.444 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122421.459 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122421.459 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122421.467 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122421.467 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122421.467 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122421.482 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122421.495 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122421.495 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122421.496 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122421.497 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122422.567 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122423.651 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122423.659 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122423.660 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122423.928 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122423.928 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122423.941 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122423.941 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122423.942 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122423.952 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122423.952 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122423.962 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122423.962 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122423.962 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122423.976 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122423.988 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122423.988 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122423.988 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122423.989 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122425.089 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122426.193 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122426.193 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122426.193 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122426.465 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122426.466 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122426.479 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122426.479 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122426.480 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122426.489 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122426.489 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122426.501 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122426.501 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122426.501 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122426.510 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122426.519 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122426.519 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122426.519 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122426.520 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122427.627 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122428.739 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122428.739 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122428.739 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122429.005 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122429.005 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122429.015 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122429.015 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122429.015 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122429.031 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122429.031 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122429.038 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122429.038 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122429.038 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122429.051 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122429.063 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122429.063 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122429.063 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122429.065 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122430.109 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 3ms
+I 241006 122431.252 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122431.253 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122431.254 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122431.515 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122431.516 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122431.530 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122431.531 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122431.531 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122431.542 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122431.543 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122431.552 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122431.552 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122431.552 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122431.569 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122431.580 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122431.580 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122431.580 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122431.587 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122432.668 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122433.685 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122433.685 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122433.685 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122433.960 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122433.960 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122433.973 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122433.973 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122433.973 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122433.982 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122433.982 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122433.994 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122433.994 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122433.994 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122434.003 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122434.009 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122434.009 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122434.014 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122434.014 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122435.007 [Ports Scanner] SerialPortCache - 1 disappeared ports are removed
+I 241006 122435.007 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122435.749 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241006 122436.067 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122436.067 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122436.341 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122436.341 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122436.355 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122436.355 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122436.356 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122436.368 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122436.368 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122436.380 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122436.380 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122436.380 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122436.394 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122436.409 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122436.409 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122436.410 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122436.411 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122437.523 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122438.626 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122438.627 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122438.627 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122438.903 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122438.903 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122438.918 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122438.918 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122438.919 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122438.930 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122438.931 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122438.938 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122438.938 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122438.938 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122438.955 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122438.968 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122438.968 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122438.968 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122438.970 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 122439.987 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 5ms
+I 241006 122441.096 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122441.096 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122441.096 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122441.359 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122441.359 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122441.373 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122441.373 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122441.373 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122441.385 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122441.385 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122441.397 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122441.397 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122441.397 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122441.406 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122441.418 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122441.418 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122441.418 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122441.419 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122442.459 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122443.646 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122443.646 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122443.646 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122443.931 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122443.931 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122443.945 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122443.945 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122443.946 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122443.958 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122443.958 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122443.971 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122443.971 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122443.972 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122443.983 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122443.995 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122443.995 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122443.996 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122443.998 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 122444.999 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 3ms
+I 241006 122446.125 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122446.126 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122446.126 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122446.387 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122446.388 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122446.395 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122446.395 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122446.395 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122446.410 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122446.410 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122446.422 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122446.422 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122446.422 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122446.432 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122446.444 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122446.444 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122446.445 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122446.447 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 122447.489 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 16ms
+I 241006 122448.593 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122448.593 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122448.593 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122448.866 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122448.866 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122448.877 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122448.877 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122448.877 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122448.886 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122448.886 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122448.892 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122448.892 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122448.892 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122448.907 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122448.918 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122448.918 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122448.919 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122448.921 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122450.022 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 122451.073 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122451.074 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122451.076 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122451.345 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122451.345 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122451.359 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122451.359 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122451.360 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122451.370 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122451.370 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122451.382 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122451.382 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122451.382 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122451.392 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122451.402 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122451.402 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122451.402 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122451.408 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 6ms
+I 241006 122452.565 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 11ms
+I 241006 122453.713 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122453.713 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122453.713 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122453.975 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122453.975 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122453.989 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122453.989 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122453.990 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122453.998 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122453.998 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122454.011 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122454.012 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122454.012 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122454.021 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122454.030 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122454.031 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122454.032 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122454.033 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122455.099 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122456.161 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122456.162 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122456.162 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122456.425 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122456.425 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122456.433 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122456.433 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122456.433 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122456.445 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122456.445 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122456.455 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122456.455 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122456.455 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122456.461 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122456.472 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122456.472 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122456.472 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122456.473 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122457.282 [AWT-EventQueue-0] FrameHelper - Non-daemon thread: Thread[AWT-EventQueue-0,6,main]
+I 241006 122457.282 [AWT-EventQueue-0] FrameHelper - Non-daemon thread: Thread[AWT-Shutdown,5,system]
+I 241006 122457.283 [AWT-EventQueue-0] FrameHelper - Non-daemon thread: Thread[DestroyJavaVM,5,main]
+I 241006 122457.283 [AWT-EventQueue-0] FrameHelper - [javax.swing.JFrame[frame0,-7,-7,1295x828,invalid,hidden,layout=java.awt.BorderLayout,title=rusefi Bundle Updater 20241004,resizable,maximized,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1281x791,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true], javax.swing.JFrame[frame1,516,244,247x380,layout=java.awt.BorderLayout,title=rusefi basic console 20241002 rusefi.snapshot.mega100,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,233x343,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true], javax.swing.JFrame[frame2,433,208,414x437,invalid,hidden,layout=java.awt.BorderLayout,title=DFU update 20241002 rusefi.snapshot.mega100,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,400x400,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]
+I 241006 122457.509 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 122458.569 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122458.569 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122458.569 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122458.847 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122458.847 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122458.860 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122458.860 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122458.860 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122458.870 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122458.871 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122458.880 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122458.880 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122458.880 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122458.892 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122458.905 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122458.905 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122458.905 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122458.906 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241006 122500.031 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241006 122501.033 [Ports Scanner] SerialPortCache - Expired port is removed: COM5
+I 241006 122501.033 [SerialPortScanner inspectPort COM5] SerialPortScanner - Determining type of serial port: COM5
+I 241006 122501.033 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122501.313 [SerialPortScanner inspectPort COM5] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241006 122501.313 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122501.324 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122501.324 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 does not look like an OpenBLT bootloader
+I 241006 122501.324 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122501.332 [SerialPortScanner inspectPort COM5] SerialAutoChecker - Got signature=rusEFI main.2024.10.06.mega100.1311423464  from serial=COM5
+I 241006 122501.332 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122501.342 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122501.342 [SerialPortScanner inspectPort COM5] SerialPortScanner - Port COM5 looks like an ECU
+I 241006 122501.342 [SerialPortScanner inspectPort COM5] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM5
+I 241006 122501.349 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closing port...
+I 241006 122501.359 [SerialPortScanner inspectPort COM5] SerialIoStream - COM5: Closed port.
+I 241006 122501.360 [SerialPortScanner inspectPort COM5] SerialPortScanner - ECU at COM5 does not have an OpenBLT bootloader
+I 241006 122501.360 [Ports Scanner] SerialPortScanner - Port COM5 detected as: ECU
+I 241006 122501.361 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241006 122502.389 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms

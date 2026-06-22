@@ -1,0 +1,285 @@
+I 241027 094634.503 [main] Autoupdate - Version 20241004
+I 241027 094634.519 [main] Autoupdate - Compiled Thu Oct 17 20:33:08 CEST 2024
+I 241027 094634.519 [main] Autoupdate - Handling parent folder name [rusefi.snapshot.mega100]
+I 241027 094634.519 [main] Autoupdate - Snapshot requested
+I 241027 094634.550 [main] FindFileHelper - Searching for *srec in C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241027 094636.027 [main] Autoupdate - Remote file rusefi_bundle_mega100_autoupdate.zip
+I 241027 094636.027 [main] Autoupdate - Server has 11894600 from Sun Oct 27 02:19:21 CEST 2024
+I 241027 094636.058 [main] Autoupdate - BundleInfo{branchName='snapshot', target='mega100'} 11894600 bytes, last modified Sun Oct 27 02:19:21 CEST 2024
+I 241027 094638.996 [AWT-EventQueue-0] FrameHelper - Non-daemon thread: Thread[main,5,main]
+I 241027 094638.996 [AWT-EventQueue-0] FrameHelper - Non-daemon thread: Thread[AWT-Shutdown,5,system]
+I 241027 094638.996 [AWT-EventQueue-0] FrameHelper - Non-daemon thread: Thread[AWT-EventQueue-0,6,main]
+I 241027 094639.011 [main] Autoupdate - Downloaded 11894600 bytes, lastModified=1729988361000
+I 241027 094639.089 [AWT-EventQueue-0] FrameHelper - [javax.swing.JFrame[frame0,-7,-7,1295x828,invalid,hidden,layout=java.awt.BorderLayout,title=rusefi Bundle Updater 20241004,resizable,maximized,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1281x791,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]
+I 241027 094639.466 [main] JarFileUtil - jarFilePrefix = rusefi
+I 241027 094639.701 [main] FindFileHelper - Searching for *srec in C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241027 094639.701 [main] Autoupdate - Running console with [basic-ui]
+I 241027 094639.701 [main] Launcher - rusEFI UI console 20241002
+I 241027 094639.733 [main] Launcher - Compiled Sun Oct 27 09:46:39 CET 2024
+I 241027 094639.733 [main] Launcher - 
+
+
+I 241027 094639.764 [AWT-EventQueue-0] FindFileHelper - Searching for *srec in C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241027 094640.436 [AWT-EventQueue-0] FindFileHelper - Searching for *srec in C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241027 094640.794 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094642.030 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241027 094642.314 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094643.576 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094643.665 [AWT-EventQueue-0] StatusWindow - Console version 20241002
+I 241027 094643.696 [AWT-EventQueue-0] StatusWindow - Windows 10 10.0
+I 241027 094643.696 [AWT-EventQueue-0] StatusWindow - Bundle rusefi.snapshot.mega100
+I 241027 094643.727 [AWT-EventQueue-0] StatusWindow - Executing command=wmic path win32_pnpentity where "Caption like '%STM32%' and Caption like '%Bootloader%'" get Caption,ConfigManagerErrorCode /format:list
+I 241027 094644.057 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094644.072 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094644.072 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094644.072 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094644.072 [AWT-EventQueue-0] StatusWindow - Caption=STM32  BOOTLOADER
+I 241027 094644.085 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094644.086 [AWT-EventQueue-0] StatusWindow - ConfigManagerErrorCode=0
+I 241027 094644.087 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094644.088 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094644.091 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094644.092 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094644.093 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094644.094 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094644.096 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094644.101 [AWT-EventQueue-0] StatusWindow - Caption=STM32  BOOTLOADERConfigManagerErrorCode=0
+I 241027 094644.104 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094644.104 [AWT-EventQueue-0] StatusWindow - Executing command=.\STM32_Programmer_CLI/bin/STM32_Programmer_CLI.exe -c port=usb1 -w "C:\Users\Pascal\Downloads\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..\rusefi.bin" 0x08000000 -v -s
+I 241027 094645.143 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241027 094646.766 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094648.360 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241027 094649.753 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241027 094651.446 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241027 094652.819 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241027 094654.094 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094655.104 [AWT-EventQueue-0] StatusWindow -       -------------------------------------------------------------------
+I 241027 094655.107 [AWT-EventQueue-0] StatusWindow -                        STM32CubeProgrammer v2.17.0                  
+I 241027 094655.113 [AWT-EventQueue-0] StatusWindow -       -------------------------------------------------------------------
+I 241027 094655.116 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094655.118 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094655.121 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094655.123 [AWT-EventQueue-0] StatusWindow - USB speed   : Full Speed (12MBit/s)
+I 241027 094655.130 [AWT-EventQueue-0] StatusWindow - Manuf. ID   : STMicroelectronics
+I 241027 094655.132 [AWT-EventQueue-0] StatusWindow - Product ID  : STM32  BOOTLOADER
+I 241027 094655.133 [AWT-EventQueue-0] StatusWindow - SN          : 377733583432
+I 241027 094655.137 [AWT-EventQueue-0] StatusWindow - DFU protocol: 1.1
+I 241027 094655.139 [AWT-EventQueue-0] StatusWindow - Board       : --
+I 241027 094655.140 [AWT-EventQueue-0] StatusWindow - Device ID   : 0x0413
+I 241027 094655.141 [AWT-EventQueue-0] StatusWindow - Device name : STM32F405xx/F407xx/F415xx/F417xx
+I 241027 094655.142 [AWT-EventQueue-0] StatusWindow - Flash size  : 1 MBytes (default)
+I 241027 094655.144 [AWT-EventQueue-0] StatusWindow - Device type : MCU
+I 241027 094655.145 [AWT-EventQueue-0] StatusWindow - Revision ID : --  
+I 241027 094655.146 [AWT-EventQueue-0] StatusWindow - Device CPU  : Cortex-M4
+I 241027 094655.147 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094655.147 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094655.148 [AWT-EventQueue-0] StatusWindow - Memory Programming ...
+I 241027 094655.149 [AWT-EventQueue-0] StatusWindow - Opening and parsing file: rusefi.bin
+I 241027 094655.150 [AWT-EventQueue-0] StatusWindow -   File          : rusefi.bin
+I 241027 094655.152 [AWT-EventQueue-0] StatusWindow -   Size          : 534.80 KB 
+I 241027 094655.154 [AWT-EventQueue-0] StatusWindow -   Address       : 0x08000000 
+I 241027 094655.155 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094655.156 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094655.157 [AWT-EventQueue-0] StatusWindow - Erasing memory corresponding to segment 0:
+I 241027 094655.158 [AWT-EventQueue-0] StatusWindow - Erasing internal memory sectors [0 8]
+I 241027 094655.161 [AWT-EventQueue-0] StatusWindow - erasing sector 0000 @: 0x08000000 done
+I 241027 094655.163 [AWT-EventQueue-0] StatusWindow - erasing sector 0001 @: 0x08004000 done
+I 241027 094655.164 [AWT-EventQueue-0] StatusWindow - erasing sector 0002 @: 0x08008000 done
+I 241027 094655.165 [AWT-EventQueue-0] StatusWindow - erasing sector 0003 @: 0x0800c000 done
+I 241027 094655.166 [AWT-EventQueue-0] StatusWindow - erasing sector 0004 @: 0x08010000 done
+I 241027 094655.167 [AWT-EventQueue-0] StatusWindow - erasing sector 0005 @: 0x08020000 done
+I 241027 094655.167 [AWT-EventQueue-0] StatusWindow - erasing sector 0006 @: 0x08040000 done
+I 241027 094655.169 [AWT-EventQueue-0] StatusWindow - erasing sector 0007 @: 0x08060000 done
+I 241027 094655.171 [AWT-EventQueue-0] StatusWindow - erasing sector 0008 @: 0x08080000 done
+I 241027 094655.172 [AWT-EventQueue-0] StatusWindow - Download in Progress:
+I 241027 094655.353 [AWT-EventQueue-0] StatusWindow - 北北北北北北北北北北北北北北北北北北北北北北北北北 0%
+I 241027 094655.355 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094656.658 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241027 094657.929 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094659.199 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241027 094700.493 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094701.817 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094703.081 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 2ms
+I 241027 094704.345 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094705.551 [AWT-EventQueue-0] StatusWindow -   2%  4%  6%  8% 10% 12% 14% 16% 18% 20% 22% 24% 26% 28% 30% 32% 34% 36% 38% 40% 42% 44% 46% 48% 50% 52% 54% 56% 58% 60% 62% 64% 66% 68% 70% 72% 74% 76% 78% 80% 82% 84% 86% 88% 90% 92% 94% 96% 98% 100%
+I 241027 094705.556 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094705.557 [AWT-EventQueue-0] StatusWindow - File download complete
+I 241027 094705.558 [AWT-EventQueue-0] StatusWindow - Time elapsed during download operation: 00:00:20.882
+I 241027 094705.559 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094705.560 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094705.561 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094705.562 [AWT-EventQueue-0] StatusWindow - Verifying ...
+I 241027 094705.565 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094705.566 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094705.567 [AWT-EventQueue-0] StatusWindow - Read progress:
+I 241027 094705.583 [AWT-EventQueue-0] StatusWindow - 北北北北北北北北北北北北北北北北北北北北北北北北北 50%
+I 241027 094705.621 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241027 094706.936 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094706.953 [AWT-EventQueue-0] StatusWindow -   2%  4%  6%  8% 10% 12% 14% 16% 18% 20% 22% 24% 26% 28% 30% 32% 34% 36% 38% 40% 42% 44% 46% 48% 50% 52% 54% 56% 58% 60% 62% 64% 66% 68% 70% 72% 74% 76% 78% 80% 82% 84% 86% 88% 90% 92% 94% 96% 98% 100%
+I 241027 094706.953 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094706.953 [AWT-EventQueue-0] StatusWindow - Download verified successfully 
+I 241027 094706.953 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094706.953 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094706.953 [AWT-EventQueue-0] StatusWindow - 
+I 241027 094706.953 [AWT-EventQueue-0] StatusWindow - RUNNING Program ... 
+I 241027 094706.969 [AWT-EventQueue-0] StatusWindow -   Address:      : 0x8000000
+I 241027 094706.969 [AWT-EventQueue-0] StatusWindow - Start operation achieved successfully
+I 241027 094706.969 [AWT-EventQueue-0] StatusWindow - SUCCESS!
+I 241027 094706.985 [AWT-EventQueue-0] StatusWindow - Please power cycle device to exit DFU mode
+I 241027 094708.310 [AWT-EventQueue-0] BasicStartupFrame - No ECU ports to update calibrations found
+I 241027 094708.650 [SerialPortScanner inspectPort COM7] SerialPortScanner - Determining type of serial port: COM7
+I 241027 094708.650 [SerialPortScanner inspectPort COM7] SerialIoStream - Using com.fazecast.jSerialComm 2.11.0
+I 241027 094708.650 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094708.930 [SerialPortScanner inspectPort COM7] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241027 094708.930 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094708.940 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094708.940 [SerialPortScanner inspectPort COM7] SerialPortScanner - Port COM7 does not look like an OpenBLT bootloader
+I 241027 094708.940 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094708.950 [SerialPortScanner inspectPort COM7] SerialAutoChecker - Got signature=rusEFI main.2024.10.27.mega100.2973326403  from serial=COM7
+I 241027 094708.950 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094708.972 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094708.973 [SerialPortScanner inspectPort COM7] SerialPortScanner - Port COM7 looks like an ECU
+I 241027 094708.973 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094708.981 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094708.992 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094708.992 [SerialPortScanner inspectPort COM7] SerialPortScanner - ECU at COM7 does not have an OpenBLT bootloader
+I 241027 094709.000 [Ports Scanner] SerialPortScanner - Port COM7 detected as: ECU
+I 241027 094709.000 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094710.239 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094711.457 [Ports Scanner] SerialPortCache - Expired port is removed: COM7
+I 241027 094711.457 [SerialPortScanner inspectPort COM7] SerialPortScanner - Determining type of serial port: COM7
+I 241027 094711.457 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094711.737 [SerialPortScanner inspectPort COM7] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241027 094711.737 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094711.737 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094711.752 [SerialPortScanner inspectPort COM7] SerialPortScanner - Port COM7 does not look like an OpenBLT bootloader
+I 241027 094711.752 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094711.752 [SerialPortScanner inspectPort COM7] SerialAutoChecker - Got signature=rusEFI main.2024.10.27.mega100.2973326403  from serial=COM7
+I 241027 094711.752 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094711.768 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094711.768 [SerialPortScanner inspectPort COM7] SerialPortScanner - Port COM7 looks like an ECU
+I 241027 094711.768 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094711.783 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094711.799 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094711.799 [SerialPortScanner inspectPort COM7] SerialPortScanner - ECU at COM7 does not have an OpenBLT bootloader
+I 241027 094711.799 [Ports Scanner] SerialPortScanner - Port COM7 detected as: ECU
+I 241027 094711.799 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094713.172 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094713.234 [AWT-EventQueue-0] FrameHelper - Non-daemon thread: Thread[AWT-EventQueue-0,6,main]
+I 241027 094713.234 [AWT-EventQueue-0] FrameHelper - Non-daemon thread: Thread[DestroyJavaVM,5,main]
+I 241027 094713.234 [AWT-EventQueue-0] FrameHelper - Non-daemon thread: Thread[AWT-Shutdown,5,system]
+I 241027 094713.234 [AWT-EventQueue-0] FrameHelper - [javax.swing.JFrame[frame0,-7,-7,1295x828,invalid,hidden,layout=java.awt.BorderLayout,title=rusefi Bundle Updater 20241004,resizable,maximized,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1281x791,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true], javax.swing.JFrame[frame1,522,320,259x229,invalid,layout=java.awt.BorderLayout,title=rusefi basic console 20241002 rusefi.snapshot.mega100,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,245x192,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true], javax.swing.JFrame[frame2,433,208,414x437,invalid,hidden,layout=java.awt.BorderLayout,title=DFU update 20241002 rusefi.snapshot.mega100,resizable,normal,defaultCloseOperation=DISPOSE_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,400x400,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]
+I 241027 094714.606 [Ports Scanner] SerialPortCache - Expired port is removed: COM7
+I 241027 094714.606 [SerialPortScanner inspectPort COM7] SerialPortScanner - Determining type of serial port: COM7
+I 241027 094714.606 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094714.878 [SerialPortScanner inspectPort COM7] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241027 094714.878 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094714.878 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094714.878 [SerialPortScanner inspectPort COM7] SerialPortScanner - Port COM7 does not look like an OpenBLT bootloader
+I 241027 094714.878 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094714.893 [SerialPortScanner inspectPort COM7] SerialAutoChecker - Got signature=rusEFI main.2024.10.27.mega100.2973326403  from serial=COM7
+I 241027 094714.893 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094714.908 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094714.908 [SerialPortScanner inspectPort COM7] SerialPortScanner - Port COM7 looks like an ECU
+I 241027 094714.908 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094714.908 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094714.926 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094714.926 [SerialPortScanner inspectPort COM7] SerialPortScanner - ECU at COM7 does not have an OpenBLT bootloader
+I 241027 094714.926 [Ports Scanner] SerialPortScanner - Port COM7 detected as: ECU
+I 241027 094714.926 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094716.222 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094717.558 [Ports Scanner] SerialPortCache - Expired port is removed: COM7
+I 241027 094717.558 [SerialPortScanner inspectPort COM7] SerialPortScanner - Determining type of serial port: COM7
+I 241027 094717.573 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094717.823 [SerialPortScanner inspectPort COM7] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241027 094717.823 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094717.839 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094717.839 [SerialPortScanner inspectPort COM7] SerialPortScanner - Port COM7 does not look like an OpenBLT bootloader
+I 241027 094717.839 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094717.854 [SerialPortScanner inspectPort COM7] SerialAutoChecker - Got signature=rusEFI main.2024.10.27.mega100.2973326403  from serial=COM7
+I 241027 094717.854 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094717.854 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094717.854 [SerialPortScanner inspectPort COM7] SerialPortScanner - Port COM7 looks like an ECU
+I 241027 094717.854 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094717.870 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094717.885 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094717.885 [SerialPortScanner inspectPort COM7] SerialPortScanner - ECU at COM7 does not have an OpenBLT bootloader
+I 241027 094717.885 [Ports Scanner] SerialPortScanner - Port COM7 detected as: ECU
+I 241027 094717.885 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094719.403 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094720.908 [Ports Scanner] SerialPortCache - Expired port is removed: COM7
+I 241027 094720.908 [SerialPortScanner inspectPort COM7] SerialPortScanner - Determining type of serial port: COM7
+I 241027 094720.908 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094721.174 [SerialPortScanner inspectPort COM7] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241027 094721.174 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094721.174 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094721.174 [SerialPortScanner inspectPort COM7] SerialPortScanner - Port COM7 does not look like an OpenBLT bootloader
+I 241027 094721.174 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094721.189 [SerialPortScanner inspectPort COM7] SerialAutoChecker - Got signature=rusEFI main.2024.10.27.mega100.2973326403  from serial=COM7
+I 241027 094721.189 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094721.205 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094721.205 [SerialPortScanner inspectPort COM7] SerialPortScanner - Port COM7 looks like an ECU
+I 241027 094721.205 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094721.221 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094721.221 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094721.221 [SerialPortScanner inspectPort COM7] SerialPortScanner - ECU at COM7 does not have an OpenBLT bootloader
+I 241027 094721.221 [Ports Scanner] SerialPortScanner - Port COM7 detected as: ECU
+I 241027 094721.221 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094722.756 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241027 094724.203 [Ports Scanner] SerialPortCache - Expired port is removed: COM7
+I 241027 094724.219 [SerialPortScanner inspectPort COM7] SerialPortScanner - Determining type of serial port: COM7
+I 241027 094724.219 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094724.480 [SerialPortScanner inspectPort COM7] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241027 094724.480 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094724.480 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094724.480 [SerialPortScanner inspectPort COM7] SerialPortScanner - Port COM7 does not look like an OpenBLT bootloader
+I 241027 094724.480 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094724.496 [SerialPortScanner inspectPort COM7] SerialAutoChecker - Got signature=rusEFI main.2024.10.27.mega100.2973326403  from serial=COM7
+I 241027 094724.496 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094724.512 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094724.512 [SerialPortScanner inspectPort COM7] SerialPortScanner - Port COM7 looks like an ECU
+I 241027 094724.512 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094724.527 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094724.543 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094724.543 [SerialPortScanner inspectPort COM7] SerialPortScanner - ECU at COM7 does not have an OpenBLT bootloader
+I 241027 094724.543 [Ports Scanner] SerialPortScanner - Port COM7 detected as: ECU
+I 241027 094724.543 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094726.059 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094727.487 [Ports Scanner] SerialPortCache - Expired port is removed: COM7
+I 241027 094727.487 [SerialPortScanner inspectPort COM7] SerialPortScanner - Determining type of serial port: COM7
+I 241027 094727.487 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094727.738 [SerialPortScanner inspectPort COM7] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241027 094727.738 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094727.738 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094727.738 [SerialPortScanner inspectPort COM7] SerialPortScanner - Port COM7 does not look like an OpenBLT bootloader
+I 241027 094727.738 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094727.753 [SerialPortScanner inspectPort COM7] SerialAutoChecker - Got signature=rusEFI main.2024.10.27.mega100.2973326403  from serial=COM7
+I 241027 094727.753 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094727.768 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094727.768 [SerialPortScanner inspectPort COM7] SerialPortScanner - Port COM7 looks like an ECU
+I 241027 094727.768 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094727.768 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094727.784 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094727.784 [SerialPortScanner inspectPort COM7] SerialPortScanner - ECU at COM7 does not have an OpenBLT bootloader
+I 241027 094727.784 [Ports Scanner] SerialPortScanner - Port COM7 detected as: ECU
+I 241027 094727.784 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094729.182 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094730.827 [Ports Scanner] SerialPortCache - Expired port is removed: COM7
+I 241027 094730.827 [SerialPortScanner inspectPort COM7] SerialPortScanner - Determining type of serial port: COM7
+I 241027 094730.827 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094731.100 [SerialPortScanner inspectPort COM7] IncomingDataBuffer - BufferedSerialIoStreamreadByte: timeout 250ms. Got only 0 byte(s) while expecting 1
+I 241027 094731.100 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094731.100 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094731.100 [SerialPortScanner inspectPort COM7] SerialPortScanner - Port COM7 does not look like an OpenBLT bootloader
+I 241027 094731.100 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094731.115 [SerialPortScanner inspectPort COM7] SerialAutoChecker - Got signature=rusEFI main.2024.10.27.mega100.2973326403  from serial=COM7
+I 241027 094731.115 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094731.115 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094731.115 [SerialPortScanner inspectPort COM7] SerialPortScanner - Port COM7 looks like an ECU
+I 241027 094731.115 [SerialPortScanner inspectPort COM7] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM7
+I 241027 094731.131 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closing port...
+I 241027 094731.131 [SerialPortScanner inspectPort COM7] SerialIoStream - COM7: Closed port.
+I 241027 094731.131 [SerialPortScanner inspectPort COM7] SerialPortScanner - ECU at COM7 does not have an OpenBLT bootloader
+I 241027 094731.131 [Ports Scanner] SerialPortScanner - Port COM7 detected as: ECU
+I 241027 094731.131 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms
+I 241027 094732.594 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 0ms

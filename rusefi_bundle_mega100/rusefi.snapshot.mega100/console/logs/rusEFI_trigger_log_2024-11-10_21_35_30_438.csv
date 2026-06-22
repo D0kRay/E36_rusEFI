@@ -1,0 +1,7 @@
+#Firmware: console20241002 firmware 20241003@978573457 mega100 MINIMAL_PINS 47
+PriLevel,SecLevel,Trigger,Sync,Time,ToothTime,coil,inj
+Flag,Flag,Flag,Flag,ms,ms,Flag,Flag
+0,1,0,0,33830.456,33830.456,0,0
+0,0,0,0,33830.456,0.0,0,0
+0,0,0,0,48138.956,14308.5,0,0
+MARK 028

@@ -1,0 +1,71 @@
+I 241203 124443.097 [main] Launcher - rusEFI UI console 20241002
+I 241203 124443.181 [main] Launcher - Compiled Sun Oct 27 10:00:20 CET 2024
+I 241203 124443.182 [main] Launcher - 
+
+
+I 241203 124443.317 [main] ConsoleUI - OS name: Windows 10
+I 241203 124443.317 [main] ConsoleUI - OS version: 10.0
+I 241203 124443.378 [Thread-1] LazyFileImpl - LazyFileImpl: Not updating logs/README.html since looks to be the same content, new content size=171
+I 241203 124443.569 [AWT-EventQueue-0] JustOneInstance - No other instances seem to be running
+I 241203 124443.571 [JustOneInstance] JustOneInstance - server socket 29213
+I 241203 124443.602 [AWT-EventQueue-0] MessagesCentral - postMessage Launcher: Available port: COM12
+I 241203 124443.822 [AWT-EventQueue-0] Launcher - rusefi console 20241002
+I 241203 124444.222 [AWT-EventQueue-0] FindFileHelper - Searching for *srec in C:\Users\Pascal\Documents\TunerStudioProjects\E36_rusEFI\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241203 124444.264 [SerialPortScanner inspectPort COM12] SerialPortScanner - Determining type of serial port: COM12
+I 241203 124444.273 [SerialPortScanner inspectPort COM12] SerialIoStream - Using com.fazecast.jSerialComm 2.11.0
+I 241203 124444.274 [SerialPortScanner inspectPort COM12] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM12
+E 241203 124444.276 [SerialPortScanner inspectPort COM12] SerialIoStream - Error opening COM12 maybe no permissions?
+I 241203 124444.276 [SerialPortScanner inspectPort COM12] SerialPortScanner - Port COM12 does not look like an OpenBLT bootloader
+I 241203 124444.276 [SerialPortScanner inspectPort COM12] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM12
+E 241203 124444.279 [SerialPortScanner inspectPort COM12] SerialIoStream - Error opening COM12 maybe no permissions?
+I 241203 124444.284 [SerialPortScanner inspectPort COM12] SerialPortScanner - Port COM12 does not look like an ECU
+I 241203 124444.291 [Ports Scanner] SerialPortScanner - Port COM12 detected as: Unknown
+I 241203 124444.590 [AWT-EventQueue-0] Launcher - setVisible
+I 241203 124444.637 [Ports Scanner] TcpConnector - Connection refused in getAvailablePorts(): simulator not running in 1ms
+I 241203 124444.672 [AWT-EventQueue-0] FindFileHelper - Searching for *srec in C:\Users\Pascal\Documents\TunerStudioProjects\E36_rusEFI\rusefi_bundle_mega100\rusefi.snapshot.mega100\console\..
+I 241203 124444.710 [AWT-EventQueue-0] Launcher - Rendering available ports: [COM12 (Unknown)]
+I 241203 124446.139 [ECU Communication Executor1] LinkManager - communicationThread lookup DONE
+I 241203 124446.166 [ECU Commands Queue] LinkManager - class com.rusefi.io.CommandQueue: SerialIO started
+I 241203 124446.223 [AWT-EventQueue-0] ConsoleUI - init...
+I 241203 124446.262 [AWT-EventQueue-0] ConsoleUI - Console 20241002
+I 241203 124446.265 [AWT-EventQueue-0] ConsoleUI - Hardware: F4
+I 241203 124446.267 [AWT-EventQueue-0] LinkManager - LinkManager: Starting COM12
+I 241203 124447.599 [AWT-EventQueue-0] MessagesCentral - postMessage ConsoleUI: COMPOSITE_OFF_RPM=700
+I 241203 124447.604 [AWT-EventQueue-0] ConsoleUI - showFrame
+I 241203 124448.416 [AWT-EventQueue-0] Launcher - onWindowOpened
+I 241203 124448.419 [AWT-EventQueue-0] StreamConnector - StreamConnector: connecting
+I 241203 124448.419 [AWT-EventQueue-0] StreamConnector - scheduleOpening
+I 241203 124448.421 [ECU Communication Executor1] StreamConnector - scheduleOpening>openPort
+I 241203 124448.422 [ECU Communication Executor1] LinkManager - class com.rusefi.io.LinkManager$5: Opening port: COM12
+I 241203 124448.422 [ECU Communication Executor1] BufferedSerialIoStream - [BufferedSerialIoStream] openPort COM12
+E 241203 124448.423 [ECU Communication Executor1] SerialIoStream - Error opening COM12 maybe no permissions?
+E 241203 124455.975 [AWT-EventQueue-0] IoUtils - windowClosedHandler
+java.lang.Exception
+	at com.rusefi.util.IoUtils.exit(IoUtils.java:16)
+	at com.rusefi.ui.console.MainFrame.windowClosedHandler(MainFrame.java:148)
+	at com.rusefi.ui.console.MainFrame$1.onWindowClosed(MainFrame.java:49)
+	at com.rusefi.core.ui.FrameHelper$1.windowClosed(FrameHelper.java:71)
+	at java.desktop/java.awt.Window.processWindowEvent(Unknown Source)
+	at java.desktop/javax.swing.JFrame.processWindowEvent(Unknown Source)
+	at java.desktop/java.awt.Window.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
