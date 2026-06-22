@@ -1,5 +1,7 @@
 # rusEFI MS41 Port (BMW E36 / M52)
 
+## Wichtig - Board aktuell nicht updaten -
+
 ## Deutsch
 
 Kleines Community-Projekt für einen rusEFI **MS41 Port** (BMW E36 / M52).
@@ -29,7 +31,6 @@ Dieses Repository enthält ein funktionsfähiges TunerStudio-Projekt mit Tune, D
 Für dieses Projekt sind die INI-Dateien wichtig. Bitte im Projekt verwenden:
 
 - Haupt-INI: [rusefi_mega100.ini](rusefi_mega100.ini)
-- Projekt-INI: [projectCfg/mainController.ini](projectCfg/mainController.ini)
 
 ### Schnellstart
 
@@ -70,7 +71,6 @@ This repository contains a working TunerStudio project with tune, dashboards, an
 The INI files are required for this project. Please use:
 
 - Main INI: [rusefi_mega100.ini](rusefi_mega100.ini)
-- Project INI: [projectCfg/mainController.ini](projectCfg/mainController.ini)
 
 ### Quick start
 
